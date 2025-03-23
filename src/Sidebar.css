@@ -5,6 +5,7 @@
     height: 100%;
     background-color: black;
     background:rgba(0, 0, 0, 0.486);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.596), rgba(116, 108, 108, 0.342));
 }
 
 .sidebar__list {

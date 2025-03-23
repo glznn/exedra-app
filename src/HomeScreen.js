@@ -12,12 +12,6 @@ function HomeScreen() {
     <div className='homescreen'> 
         <Nav />
         <Sidebar />
-        <h1>THIS IS THE HOMEPAGE</h1>
-        <h1>THIS IS THE HOMEPAGE</h1>
-        <h1>THIS IS THE HOMEPAGE</h1>
-        <h1>THIS IS THE HOMEPAGE</h1>
-        <h1>THIS IS THE HOMEPAGE</h1>
-
         <Router>
           <Routes>
             <Route path="/characters" element={<CharacterScreen />} />

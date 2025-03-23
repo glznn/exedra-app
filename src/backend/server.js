@@ -3,6 +3,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const express = require('express');    
 const app = express();
+const cors = require('cors')
 
 const home = 'https://madoka-exedra.com';
 const url = 'https://madoka-exedra.com/en/character/?id=';
@@ -15,6 +16,8 @@ const charCount = 12;
 // app.post => add data " " " " 
 // app.put => edit data " " " "
 // app.delete => delete data " " " "
+
+app.use(cors());
 
 app.get('/', function (req, res) {
     res.json('This is my webscraper')
@@ -47,6 +50,10 @@ app.get('/results', async (req, res) => {
             })
             
         }
+        
+        // What gets sent to the server.
+        // The characters array of characterData objects that contain
+        // the characters name and image. 
 
         res.json( {
             characters: characterData

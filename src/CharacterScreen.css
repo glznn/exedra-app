@@ -1,0 +1,60 @@
+.CharacterScreen {
+    color:white;
+    padding:60px;
+    padding-left: 175px;
+    height:100%;
+}
+
+.screen___list {
+    top: 100px;
+    color: white;
+}
+
+.char__list {
+    position: relative;
+    top: 100px;
+}
+
+.char__elements {
+    top: -100px;
+    position:relative;
+    display:inline-block;
+    padding: 10px;
+    overflow:hidden;
+    /* border:5px, solid, black; */
+
+}
+
+.char__text {
+    margin-top: -80px;
+    position: relative;
+    top: 200px;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-clip: text;
+    cursor: pointer;
+    z-index:1;
+}
+
+.char__img{
+    /* transform: scale(0.25);
+    margin-top: -400px;
+    margin-right: -650px;
+    margin-left: -650px;
+    margin-bottom: -400px; */
+    display:block;
+    width: 300px;
+    height:168.83px;
+    padding: -10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border:5px, solid, black;
+    overflow:hidden;
+}
+
+.char__img:hover {
+    overflow:hidden;
+    transform:scale(1.25);
+}
