@@ -52,7 +52,7 @@ app.get('/results', async (req, res) => {
             // then looks for p tag and scrapes the text and stores it into charName. 
             const charName = $('.character_detail-name').find('p').text();
             const charImage = $('.character_detail-image img').attr('src');
-            const charOrigin = $('.character_detail-title').attr('src');
+            const charOrigin = $('.character_detail-title img').attr('src');
 
             characterData.push({
                 name: charName,
