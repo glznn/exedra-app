@@ -21,9 +21,6 @@
     display:inline-block;
     padding: 10px;
     overflow:hidden;
-    /* border:5px, solid, black; */
-
-
 }
 
 .char__text {
@@ -39,6 +36,13 @@
     z-index:1;
 }
 
+.charimg__container {
+    width: 300px;
+    height:168.83px;
+    border:5px, solid, black;
+    overflow:hidden;
+}
+
 .char__img{
     /* transform: scale(0.25);
     margin-top: -400px;
@@ -50,12 +54,9 @@
     height:168.83px;
     padding: -10px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
-    border:5px, solid, black;
-    overflow:hidden;
+    transition: all .75s ease-in-out;
 }
 
 .char__img:hover {
-    overflow:hidden;
     transform:scale(1.25);
 }

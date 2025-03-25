@@ -21,8 +21,11 @@ function CharacterScreen() {
         <div className="screen___list">
           <ul className="char__list">
             {character.map((characterI, index) => (
-              <li className="char__elements" key={index}><h3 className="char__text">{characterI.name}</h3>
-              <img className="char__img" src={characterI.image}/>
+              <li className="char__elements" key={index}>
+              <h3 className="char__text">{characterI.name}</h3>
+              <div className="charimg__container">
+                <img className="char__img" src={characterI.image}/>
+              </div>
               </li>
             ))}
           </ul>
