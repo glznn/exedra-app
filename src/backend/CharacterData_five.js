@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const CharacterData_five = [
     {
         name: "Homura Akemi",
@@ -40,7 +38,7 @@ export const CharacterData_five = [
     {
         name: "Yachiyo Nanami",
         rarity: "5*",
-        type: "Water",
+        type: "Aqua",
         role: "Attacker",
         image: "https://images.puella-magi.net/a/ae/Exedra_Yachiyo_Art.jpg",
         stats: {
@@ -116,7 +114,7 @@ export const CharacterData_five = [
         rarity: "5*",
         type: "Light",
         role: "Breaker",
-        image: "",  // Add the image URL here
+        image: "",  
         stats: {
             hp: 8126,
             atk: 2407,

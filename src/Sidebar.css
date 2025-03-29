@@ -25,7 +25,9 @@
 
 .sidebar__list #active {
     background-color: rgb(187, 108, 152);
-    color: black;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 .sidebar__row{

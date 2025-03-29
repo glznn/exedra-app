@@ -1,37 +1,44 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import { CharacterData_five } from './backend/CharacterData_five'
+import { CharacterData_four } from './backend/CharacterData_four'
+import { CharacterData_three } from './backend/CharacterData_three'
 import './CharacterScreen.css'
 
 function CharacterScreen() {
-  const[character, setCharacters] = useState([]);
-
-  useEffect(() => {
-    axios.get('http://localhost:8000/results')
-    .then(response => {
-      setCharacters(response.data.characters);
-    })
-    .catch(error => {
-      console.error('Error fetching scraped data:', error);
-    })
-  }, [])
 
   return (
     <div className="CharacterScreen">
-        <h1>Characters</h1>
-        <div className="screen___list">
-          <ul className="char__list">
-            {character.map((characterI, index) => (
-              <li className="char__elements" key={index}>
-              <h3 className="char__text">{characterI.name}</h3>
-              <div className="charimg__container">
-                <img className="char__img" src={characterI.image}/>
-              </div>
-              </li>
-            ))}
-          </ul>
+      <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg">
+        </img>
+        <h1>Characters<br></br></h1>
+        {CharacterData_five.map((character, index) => (
+          <div className="char__card" key={index}>
+            <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
+            <img className="char__role" src={"/exedra-icons/role/" + character.role + ".png"}></img>
+            <div className="charimg__container">
+            <img src={character.image} className="char__image" />
+            </div>
+          </div>
+        ))}
+        {CharacterData_four.map((character, index) => (
+          <div className="char__card" key={index}>
+          <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
+          <img className="char__role" src={"/exedra-icons/role/" + character.role + ".png"}></img>
+          <div className="charimg__container">
+          <img src={character.image} className="char__image" />
+          </div>
         </div>
-        <h1> THIS IS THE CHARACTER PAGE </h1>
-        <h1> THIS IS THE CHARACTER PAGE </h1>
+        ))}
+        {CharacterData_three.map((character, index) => (
+          <div className="char__card" key={index}>
+            <div className="char__text">
+            </div>
+            <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
+            <img className="char__role" src={"/exedra-icons/role/" + character.role + ".png"}></img>
+            <div className="charimg__container">
+            <img src={character.image} className="char__image" />
+            </div>
+          </div>
+        ))}
     </div>
   )
 }

@@ -1,3 +1,94 @@
-.TierListScreen {
-    padding-top: 100px;
-}
+  
+  /* Container for character list */
+  .character-list {
+    padding-left: 175px;
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Individual character card */
+  .character-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .character-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Character name and image */
+  .character-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .character-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Section titles (Special Attack, Skill, etc.) */
+  .character-card h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #34495e;
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs for content */
+  .character-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .character-card p strong {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Suppability and Ascension styling */
+  .character-card div {
+    margin-top: 15px;
+  }
+  
+  .character-card div h4 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #8e44ad;
+  }
+  
+  .character-card div p {
+    font-size: 1rem;
+    margin-left: 15px;
+    color: #7f8c8d;
+  }
+  
+  /* Make the cards responsive on smaller screens */
+  @media (max-width: 768px) {
+    .character-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .character-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

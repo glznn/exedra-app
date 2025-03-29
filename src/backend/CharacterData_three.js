@@ -1,12 +1,10 @@
-import React from 'react'
-
 export const CharacterData_three = [ 
     {
         name: "Asuka Tatsuki",
         rarity: "3*",
         type: "Aqua",
         role: "Attacker",
-        image: "https://images.puella-magi.net/e/ec/Asuka_profile.png",
+        image: "/exedra-3s-png/asuka_tatsuki_3S.png",
         stats: {
           hp: 6275,
           atk: 2745,
@@ -40,7 +38,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Light",
         role: "Attacker",
-        image: "https://images.puella-magi.net/e/ec/Asuka_profile.png",
+        image: "/exedra-3s-png/masara_kagami_3S.png",
         stats: {
           hp: 6297,
           atk: 2744,
@@ -74,7 +72,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Flame",
         role: "Attacker",
-        image: "https://images.puella-magi.net/d/d1/Rika_Profile.png",
+        image: "/exedra-3s-png/rika_ayano_3S.png",
         stats: {
           hp: 6236,
           atk: 2750,
@@ -108,7 +106,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Dark",
         role: "Attacker",
-        image: "https://images.puella-magi.net/d/d2/Card_30524_l.png",
+        image: "/exedra-3s-png/ashley_taylor_3S.png",
         stats: {
           hp: 6253,
           atk: 2733,
@@ -142,7 +140,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Dark",
         role: "Attacker",
-        image: "https://images.puella-magi.net/b/be/Card_30594_l.png",
+        image: "/exedra-3s-png/kush_irina_3S.png",
         stats: {
           hp: 6227,
           atk: 2744,
@@ -176,7 +174,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Forest",
         role: "Attacker",
-        image: "https://images.puella-magi.net/e/ea/Kako_profile.png",
+        image: "/exedra-3s-png/kako_natsume_3S.png",
         stats: {
           hp: 6236,
           atk: 2750,
@@ -210,7 +208,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Flame",
         role: "Breaker",
-        image: "https://images.puella-magi.net/e/ed/Karin_profile_magia_record.png",
+        image: "/exedra-3s-png/karin_misono_3S.png",
         stats: {
           hp: 7178,
           atk: 2148,
@@ -244,7 +242,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Flame",
         role: "Breaker",
-        image: "https://images.puella-magi.net/e/ee/Leila_Ibuki_profile.png",
+        image: "/exedra-3s-png/reira_ibuki_3S.png",
         stats: {
           hp: 7219,
           atk: 2125,
@@ -278,7 +276,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Aqua",
         role: "Breaker",
-        image: "https://images.puella-magi.net/4/41/Seika_sousui_profile.png",
+        image: "/exedra-3s-png/seika_kumi_3S.png",
         stats: {
           hp: 7228,
           atk: 2120,
@@ -312,7 +310,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Dark",
         role: "Breaker",
-        image: "https://images.puella-magi.net/7/7c/Sarasa_profile.png",
+        image: "/exedra-3s-png/hanna_sarasa_3S.png",
         stats: {
           hp: 7178,
           atk: 2148,
@@ -346,7 +344,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Light",
         role: "Breaker",
-        image: "https://images.puella-magi.net/2/2b/Riko_Chiaki_Profile.png",
+        image: "/exedra-3s-png/riko_chiaki_3S.png",
         stats: {
           hp: 7188,
           atk: 2140,
@@ -380,7 +378,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Aqua",
         role: "Breaker",
-        image: "https://images.puella-magi.net/e/e8/Meiyui_profile.png",
+        image: "/exedra-3s-png/meiyui_chun_3S.png",
         stats: {
           hp: 7161,
           atk: 2146,
@@ -414,7 +412,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Forest",
         role: "Buffer",
-        image: "https://images.puella-magi.net/5/50/Nanaka_profile.png",
+        image: "/exedra-3s-png/nanaka_tokiwa_3S.png",
         stats: {
           hp: 6975,
           atk: 2270,
@@ -448,7 +446,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Flame",
         role: "Buffer",
-        image: "https://images.puella-magi.net/d/d9/Himika_Mao_profile.png",
+        image: "/exedra-3s-png/himika_mao_3S.png",
         stats: {
           hp: 7001,
           atk: 2232,
@@ -482,7 +480,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Flame",
         role: "Buffer",
-        image: "https://images.puella-magi.net/6/67/Ayame_profile_magia_record.png",
+        image: "/exedra-3s-png/ayame_mikuri_3S.png",
         stats: {
           hp: 7063,
           atk: 2255,
@@ -516,7 +514,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Aqua",
         role: "Buffer",
-        image: "https://images.puella-magi.net/5/57/Card_30022_l.png",
+        image: "/exedra-3s-png/natsuki_utsuho_3s.png",
         stats: {
           hp: 6962,
           atk: 2259,
@@ -550,7 +548,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Forest",
         role: "Debuffer",
-        image: "https://images.puella-magi.net/c/c8/Mito_aino_profile.png",
+        image: "/exedra-3s-png/mito_aino_3S.png",
         stats: {
           hp: 6962,
           atk: 2275,
@@ -584,7 +582,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Light",
         role: "Debuffer",
-        image: "https://images.puella-magi.net/6/6e/Hazuki_profile_magia_record.png",
+        image: "/exedra-3s-png/hazuki_yusa_3S.png",
         stats: {
           hp: 7063,
           atk: 2227,
@@ -618,7 +616,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Light",
         role: "Defender",
-        image: "https://images.puella-magi.net/2/24/Awane_Kokoro_4_star_card.png",
+        image: "/exedra-3s-png/kokoro_awane_3S.png",
         stats: {
           hp: 7028,
           atk: 1784,
@@ -652,7 +650,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Forest",
         role: "Healer",
-        image: "https://images.puella-magi.net/f/fb/Yuma_magia_record_profile.png",
+        image: "/exedra-3s-png/yuma_chitose_3S.png",
         stats: {
           hp: 8412,
           atk: 1798,
@@ -686,7 +684,7 @@ export const CharacterData_three = [
         rarity: "3*",
         type: "Aqua",
         role: "Healer",
-        image: "https://images.puella-magi.net/8/87/Konoha_profile_magia_record.png",
+        image: "/exedra-3s-png/konoha_shizumi_3S.png",
         stats: {
           hp: 8465,
           atk: 1794,

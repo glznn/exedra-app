@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-
 
 function LandingPage() {
   return (
-    <div className='landing__page'> 
+    <div className='landingpage'> 
         <Nav />
         <Sidebar />
         <Router>
