@@ -26,9 +26,26 @@ function CharacterScreen() {
       <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg">
         </img>
         <h1>Characters<br></br></h1>
-        <input type="text" id="userInput" 
+      <div char__filterbar>
+        <h1>testing</h1>
+        <img src={"/exedra-icons/elements/aqua-elem.png"}></img>
+        <img src={"/exedra-icons/elements/dark-elem.png"}></img>
+        <img src={"/exedra-icons/elements/flame-elem.png"}></img>
+        <img src={"/exedra-icons/elements/forest-elem.png"}></img>
+        <img src={"/exedra-icons/elements/void-elem.png"}></img>
+        <img src={"/exedra-icons/role/attacker.png"}></img>
+        <img src={"/exedra-icons/role/breaker.png"}></img>
+        <img src={"/exedra-icons/role/buffer.png"}></img>
+        <img src={"/exedra-icons/role/debuffer.png"}></img>
+        <img src={"/exedra-icons/role/defender.png"}></img>
+        <img src={"/exedra-icons/role/healer.png"}></img>
+      </div>
+        <input type="text" 
+        id="userInput" 
         autoComplete='off'
-        onChange={filterByName} placeholder="Search.."></input>
+        onChange={filterByName} 
+        placeholder="Search kioku...">
+        </input>
         {filteredData.map((character, index) => (
           <div className="char__card" key={index}>
             <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
