@@ -5,6 +5,7 @@
     height:100%;
 }
 
+
 .char__banner {
     width:100%;
     height:300px;
@@ -12,36 +13,103 @@
     opacity: 0.10;
 }
 
-.char__list {
-    position: relative;
-    top: 100px;
+.char__bannerMessage {
+    position:absolute;
+    top:10%;
+    left:50%;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
 }
+
+.char__filterbar {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.char__filterbar #userInput{
+    display:inline-flex;
+    width:500px;
+    height: 52px;
+    background: black;
+    color:white;
+    border:none;
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 20px;
+}
+
+.char__elemFilter {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+.char__elemRow {
+}
+
+.char__elemRow #elemIcon {
+    background: black;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor:pointer;
+    border: 1px solid rgb(61, 65, 68);
+}
+
+.char__roleFilter {
+    list-style-type: none;
+    display:inline-flex;
+}
+
+.char__roleRow {
+}
+
+.char__roleRow #roleIcon{
+    background:black;
+    cursor:pointer;
+    height:52px !important;
+    width:60px !important;
+    border: 1px solid rgb(61, 65, 68);
+    padding-top: 5px;
+}
+
+.char__roleImg {
+    height: 48px;
+    width: 50px;
+}
+
+.char__rarityFilter {
+    list-style-type: none;
+    display:inline-flex;
+    padding-right:40px;
+}
+
+.char__rarityRow {
+    font-size: 30px;
+}
+
+.char__rarityRow #rarityIcon {
+    background: black;
+    padding-right: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    border: 1px solid rgb(61, 65, 68);
+}
+
+
 
 .char__card {
     position:relative;
     display:inline-block;
     padding: 10px;
     overflow:hidden;
-}
-
-.char__text {
-    position: relative;
-    z-index: 1;
-}
-
-.char__name {
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.char__spatk {
-    margin-top: -115px;
-    margin-bottom:0px;
-    top: 200px;
-    position: relative;
-    z-index:1;
-    color:white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .char__type {
@@ -75,13 +143,6 @@
     filter:drop-shadow(gray 2px 2px 2px)
 }
 
-.char__gem {
-    position:absolute;
-    height: 200px;
-    width: 200px;
-    z-index: 4;
-}
-
 .char__image{
     display:block;
     width: 300px;
@@ -95,4 +156,8 @@
 .char__image:hover {
     transform:scale(1.25);
     overflow:hidden;
+}
+
+.hidden {
+    display:none;
 }

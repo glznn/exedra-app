@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CharacterData_five } from './backend/CharacterData_five'
 import { CharacterData_four } from './backend/CharacterData_four'
 import { CharacterData_three } from './backend/CharacterData_three'
+import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
 import './CharacterScreen.css'
 
 function CharacterScreen() {
@@ -19,33 +20,58 @@ function CharacterScreen() {
   ].filter((character) =>
     character.name.toUpperCase().includes(filter)
   );
-  
-  
+
+
   return (
     <div className="CharacterScreen">
       <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg">
         </img>
-        <h1>Characters<br></br></h1>
-      <div char__filterbar>
-        <h1>testing</h1>
-        <img src={"/exedra-icons/elements/aqua-elem.png"}></img>
-        <img src={"/exedra-icons/elements/dark-elem.png"}></img>
-        <img src={"/exedra-icons/elements/flame-elem.png"}></img>
-        <img src={"/exedra-icons/elements/forest-elem.png"}></img>
-        <img src={"/exedra-icons/elements/void-elem.png"}></img>
-        <img src={"/exedra-icons/role/attacker.png"}></img>
-        <img src={"/exedra-icons/role/breaker.png"}></img>
-        <img src={"/exedra-icons/role/buffer.png"}></img>
-        <img src={"/exedra-icons/role/debuffer.png"}></img>
-        <img src={"/exedra-icons/role/defender.png"}></img>
-        <img src={"/exedra-icons/role/healer.png"}></img>
+
+      <div className="char__bannerMessage">
+      <h1>Characters<br></br></h1>
       </div>
+      <div className="char__filterbar">
+        <ul className="char__elemFilter">
+          {ElementData.map((val, key) => {
+            return (
+              <li key={key} className="char__elemRow">
+                <div id="elemIcon">
+                  <img src={val}></img>
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+        <ul className="char__roleFilter">
+          {RoleData.map((val, key) => {
+            return (
+              <li key={key} className="char__roleRow">
+                <div id="roleIcon">
+                  <img className="char__roleImg" src={val}></img>
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+        <ul className="char__rarityFilter">
+          {RarityData.map((val, key) => {
+            return (
+              <li key={val.rarity} className="char__rarityRow">
+                <div id="rarityIcon">
+                  {val.rarity} {val.icon}
+                </div>
+              </li>
+            )
+          })}
+        </ul>
         <input type="text" 
         id="userInput" 
         autoComplete='off'
         onChange={filterByName} 
         placeholder="Search kioku...">
         </input>
+      </div>
+      <div className="char__list">
         {filteredData.map((character, index) => (
           <div className="char__card" key={index}>
             <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
@@ -55,6 +81,7 @@ function CharacterScreen() {
             </div>
           </div>
         ))}
+        </div>
     </div>
   )
 }

@@ -1,0 +1,18 @@
+import React from 'react'
+
+import './SimulatorScreen.css'
+
+function SimulatorScreen() {
+  return (
+    <div className="SimulatorScreen"> 
+        <div className="sim__banner">
+            <img src="https://i.redd.it/more-official-images-magica-exedra-and-logo-v0-efjytt0qmxvc1.jpg?width=2800&format=pjpg&auto=webp&s=cafb5ea94241eb5938e3ab11662280fd9611fe10"></img>
+        </div>
+        <div className="sim__message"> 
+        <h1> Coming soon! </h1>
+        </div>
+    </div>
+  )
+}
+
+export default SimulatorScreen
