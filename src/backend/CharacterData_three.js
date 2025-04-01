@@ -11,7 +11,9 @@ export const CharacterData_three = [
           def: 2046,
           spd: 94
         },
-        spatk: "Asuka’s Kioku",
+        spatk: {
+          name :"Asuka’s Kioku"
+        },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
           name: "Leapstrike Slash",
@@ -45,7 +47,9 @@ export const CharacterData_three = [
           def: 2038,
           spd: 97
         },
-        spatk: "Masara’s Kioku",
+        spatk: {
+          name: "Masara’s Kioku",
+        },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
           name: "Cold Edge",
@@ -79,7 +83,9 @@ export const CharacterData_three = [
           def: 2055,
           spd: 96
         },
-        spatk: "Rika’s Kioku",
+        spatk: {
+          name: "Rika’s Kioku"
+        },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
           name: "Cascading Heat",
@@ -113,7 +119,9 @@ export const CharacterData_three = [
           def: 2065,
           spd: 95
         },
-        spatk: "Ashley’s Kioku",
+        spatk: {
+          name: "Ashley’s Kioku"
+        },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
           name: "Bombing Bear",
@@ -147,7 +155,9 @@ export const CharacterData_three = [
           def: 2061,
           spd: 96
         },
-        spatk: "Kush’s Kioku",
+        spatk: {
+          name: "Kush’s Kioku"
+        },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
           name: "Blade of Conviction",
@@ -181,7 +191,10 @@ export const CharacterData_three = [
           def: 2051,
           spd: 93
         },
-        spatk: "Kako’s Kioku",
+        spatk: 
+        {
+          name: "Kako’s Kioku"
+        },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
           name: "Guiding Mark",
@@ -215,7 +228,9 @@ export const CharacterData_three = [
           def: 2347,
           spd: 114
         },
-        spatk: "Karin’s Kioku",
+        spatk: {
+          name: "Karin’s Kioku"
+        },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
           name: "Death Harvest",
@@ -249,7 +264,9 @@ export const CharacterData_three = [
           def: 2355,
           spd: 114
         },
-        spatk: "Reira’s Kioku",
+        spatk: {
+          name: "Reira’s Kioku"
+        },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
           name: "Sword of Flame",
@@ -283,7 +300,9 @@ export const CharacterData_three = [
           def: 2359,
           spd: 111
         },
-        spatk: "Seika’s Kioku",
+        spatk: {
+          name: "Seika’s Kioku"
+        },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
           name: "Aqua Whip",
@@ -317,7 +336,9 @@ export const CharacterData_three = [
           def: 2348,
           spd: 113
         },
-        spatk: "Hanna’s Kioku",
+        spatk: {
+          name: "Hanna’s Kioku"
+        },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
           name: "Accursed Sphere",
@@ -351,7 +372,9 @@ export const CharacterData_three = [
           def: 2352,
           spd: 114
         },
-        spatk: "Riko’s Kioku",
+        spatk: {
+          name: "Riko’s Kioku"
+        },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
           name: "Pick of Plenty",
@@ -385,7 +408,9 @@ export const CharacterData_three = [
           def: 2353,
           spd: 113
         },
-        spatk: "Meiyu’s Kioku",
+        spatk: {
+          name: "Meiyu’s Kioku"
+        },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
           name: "Hawk Talon Fist",
@@ -419,7 +444,9 @@ export const CharacterData_three = [
           def: 2293,
           spd: 116
         },
-        spatk: "Nanaka’s Kioku",
+        spatk: {
+          name:"Nanaka’s Kioku"
+        },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
           name: "Hollyhock",
@@ -453,7 +480,9 @@ export const CharacterData_three = [
           def: 2322,
           spd: 120
         },
-        spatk: "Himika’s Kioku",
+        spatk: {
+          name: "Himika’s Kioku"
+        },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
           name: "Lucky Palm",
@@ -487,7 +516,9 @@ export const CharacterData_three = [
           def: 2278,
           spd: 118
         },
-        spatk: "Ayame’s Kioku",
+        spatk: {
+          name: "Ayame’s Kioku"
+        },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
           name: "Critical Strike",
@@ -521,7 +552,9 @@ export const CharacterData_three = [
           def: 2307,
           spd: 119
         },
-        spatk: "Natsuki’s Kioku",
+        spatk: {
+          name: "Natsuki’s Kioku"
+        },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
           name: "We Can Do It!",
@@ -555,7 +588,9 @@ export const CharacterData_three = [
           def: 2293,
           spd: 116
         },
-        spatk: "Mito’s Kioku",
+        spatk: {
+          name: "Mito’s Kioku"
+        },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
           name: "Admonishing Arrow",
@@ -589,7 +624,9 @@ export const CharacterData_three = [
           def: 2307,
           spd: 116
         },
-        spatk: "Hazuki’s Kioku",
+        spatk: {
+          name: "Hazuki’s Kioku"
+        },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
           name: "Shock Wave",
@@ -623,7 +660,9 @@ export const CharacterData_three = [
           def: 2758,
           spd: 87
         },
-        spatk: "Kokoro’s Kioku",
+        spatk: {
+          name: "Kokoro’s Kioku"
+        },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
           name: "Pile Strike",
@@ -657,7 +696,9 @@ export const CharacterData_three = [
           def: 2296,
           spd: 101
         },
-        spatk: "Yuma’s Kioku",
+        spatk: {
+          name: "Yuma’s Kioku"
+        },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
           name: "Kitty Care",
@@ -691,7 +732,9 @@ export const CharacterData_three = [
           def: 2278,
           spd: 109
         },
-        spatk: "Konoha’s Kioku",
+        spatk: {
+          name: "Konoha’s Kioku"
+        },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
           name: "Healing Butterflies",
