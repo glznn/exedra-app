@@ -1,7 +1,7 @@
 export const CharacterData_five = [
     {
         name: "Homura Akemi",
-        rarity: "5*",
+        rarity: "5",
         type: "Dark",
         role: "Attacker",
         image: "https://images.puella-magi.net/6/61/Exedra_Homura_Art.jpg",

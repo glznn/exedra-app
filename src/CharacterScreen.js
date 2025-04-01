@@ -6,20 +6,53 @@ import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
 import './CharacterScreen.css'
 
 function CharacterScreen() {
+  const [elementFilter, setElementFilter] = useState('');
+  const [roleFilter, setRoleFilter] = useState('');
+  const [rarityFilter, setRarityFilter] = useState('');
+  const [nameFilter, setNameFilter] = useState('');
 
-  const [filter, setFilter] = useState('');
-
-  function filterByName(e) {
-    setFilter(e.target.value.toUpperCase());
-  }
-
-  const filteredData = [
+  const allCharacterData = [
     ...CharacterData_five,
     ...CharacterData_four,
     ...CharacterData_three,
-  ].filter((character) =>
-    character.name.toUpperCase().includes(filter)
-  );
+  ];
+
+  const filteredData = allCharacterData.filter((character) => {
+    if (nameFilter && !character.name.toUpperCase().includes(nameFilter)) {
+      return false;
+    }
+
+    if (elementFilter && character.type !== elementFilter) {
+      return false;
+    }
+
+    if (roleFilter && character.role !== roleFilter) {
+      return false;
+    }
+
+    
+    if (rarityFilter && character.rarity !== rarityFilter + "*") {
+      return false;
+    }
+
+    return true;
+  })
+
+  function handleNameFilter(e) {
+    setNameFilter(e.target.value.toUpperCase());
+  }
+
+  const handleElementFilter = (element) => {
+    setElementFilter(element === elementFilter ? '' : element);
+  }
+
+  const handleRoleFilter = (role) => {
+    setRoleFilter(role === roleFilter ? '' : role);
+  }
+
+  const handleRarityFilter = (rarity) => {
+    setRarityFilter(rarity === rarityFilter ? '' : rarity);
+  }
 
 
   return (
@@ -28,15 +61,19 @@ function CharacterScreen() {
         </img>
 
       <div className="char__bannerMessage">
-      <h1>Characters<br></br></h1>
+      <h1>Characters</h1>
+      <h4>View of all available Kioku</h4>
       </div>
       <div className="char__filterbar">
         <ul className="char__elemFilter">
           {ElementData.map((val, key) => {
             return (
-              <li key={key} className="char__elemRow">
+              <li key={key} 
+              className={`char__elemRow ${val.type === elementFilter ? 'active' : ''}`}
+              onClick={() => handleElementFilter(val.type)}
+              >
                 <div id="elemIcon">
-                  <img src={val}></img>
+                  <img src={val.image} title={val.type}></img>
                 </div>
               </li>
             )
@@ -45,9 +82,12 @@ function CharacterScreen() {
         <ul className="char__roleFilter">
           {RoleData.map((val, key) => {
             return (
-              <li key={key} className="char__roleRow">
+              <li key={key} 
+              className={`char__roleRow ${val.role === roleFilter ? 'active' : ''}`}
+              onClick={() => handleRoleFilter(val.role)}
+              >
                 <div id="roleIcon">
-                  <img className="char__roleImg" src={val}></img>
+                  <img className="char__roleImg" src={val.image}></img>
                 </div>
               </li>
             )
@@ -56,7 +96,10 @@ function CharacterScreen() {
         <ul className="char__rarityFilter">
           {RarityData.map((val, key) => {
             return (
-              <li key={val.rarity} className="char__rarityRow">
+              <li key={val.rarity} 
+              className={`char__rarityRow ${val.rarity === rarityFilter ? 'active' : ''}`}
+              onClick={() => handleRarityFilter(val.rarity)}
+              >
                 <div id="rarityIcon">
                   {val.rarity} {val.icon}
                 </div>
@@ -67,8 +110,8 @@ function CharacterScreen() {
         <input type="text" 
         id="userInput" 
         autoComplete='off'
-        onChange={filterByName} 
-        placeholder="Search kioku...">
+        onChange={handleNameFilter} 
+        placeholder="Search for kioku...">
         </input>
       </div>
       <div className="char__list">

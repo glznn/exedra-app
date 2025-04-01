@@ -3,11 +3,14 @@
 }
 
 .sim__banner {
-    transform:scale(0.25);
+    object-fit: cover;
+    position:fixed;
+    object-fit: cover;
+    width:50%;
 }
 
 .sim__banner #img {
-    transform:scale(0.5);
+    width:300px;
 }
 
 .sim__message {
