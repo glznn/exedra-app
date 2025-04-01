@@ -1,7 +1,7 @@
 export const CharacterData_five = [
     {
         name: "Homura Akemi",
-        rarity: "5*",
+        rarity: "5",
         type: "Dark",
         role: "Attacker",
         image: "https://images.puella-magi.net/6/61/Exedra_Homura_Art.jpg",
@@ -38,7 +38,7 @@ export const CharacterData_five = [
     },
     {
         name: "Yachiyo Nanami",
-        rarity: "5*",
+        rarity: "5",
         type: "Aqua",
         role: "Attacker",
         image: "https://images.puella-magi.net/a/ae/Exedra_Yachiyo_Art.jpg",
@@ -75,7 +75,7 @@ export const CharacterData_five = [
     },
     {
         name: "Oriko Mikuni",
-        rarity: "5*",
+        rarity: "5",
         type: "Light",
         role: "Attacker",
         image: "https://images.puella-magi.net/6/6d/Exedra_Oriko_Art.jpg",
@@ -112,7 +112,7 @@ export const CharacterData_five = [
     },
     {
         name: "Madoka Kaname",
-        rarity: "5*",
+        rarity: "5",
         type: "Light",
         role: "Breaker",
         image: "",  
@@ -149,7 +149,7 @@ export const CharacterData_five = [
     },
     {
         name: "Iroha Tamaki",
-        rarity: "5*",
+        rarity: "5",
         type: "Light",
         role: "Breaker",
         image: "https://images.puella-magi.net/5/56/Magia_Exedra_Steam_11.jpg",
@@ -186,7 +186,7 @@ export const CharacterData_five = [
     },
     {
         name: "Tsuruno Yui",
-        rarity: "5*",
+        rarity: "5",
         type: "Flame",
         role: "Buffer",
         image: "https://images.puella-magi.net/3/33/Exedra_Tsuruno_Art.jpg",
@@ -223,7 +223,7 @@ export const CharacterData_five = [
     },
     {
         name: "Ren Isuzu",
-        rarity: "5*",
+        rarity: "5",
         type: "Void",
         role: "Debuffer",
         image: "https://images.puella-magi.net/f/f2/Ren_profile.png",
@@ -264,7 +264,7 @@ export const CharacterData_five = [
     },
     {
         name: "Felicia Mitsuki",
-        rarity: "5*",
+        rarity: "5",
         type: "Dark",
         role: "Debuffer",
         image: "https://images.puella-magi.net/4/41/Exedra_Felicia_Art.jpg",
@@ -301,7 +301,7 @@ export const CharacterData_five = [
       },
       {
         name: "Kirika Kure",
-        rarity: "5*",
+        rarity: "5",
         type: "Dark",
         role: "Defender",
         image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_C2.jpg",
@@ -338,7 +338,7 @@ export const CharacterData_five = [
       },
       {
         name: "Sana Futaba",
-        rarity: "5*",
+        rarity: "5",
         type: "Forest",
         role: "Defender",
         image: "https://images.puella-magi.net/e/e8/Exedra_Sana_Art.jpg",
@@ -375,7 +375,7 @@ export const CharacterData_five = [
       },
       {
         "name": "Madoka Kaname",
-        "rarity": "5*",
+        "rarity": "5",
         "type": "Light",
         "role": "Breaker",
         "image": "https://images.puella-magi.net/0/0c/Magia_Exedra_Steam_8.jpg",

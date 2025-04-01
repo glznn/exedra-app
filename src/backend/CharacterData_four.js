@@ -1,7 +1,7 @@
 export const CharacterData_four = [
     {
         name: "Asuka Tatsuki",
-        rarity: "4*",
+        rarity: "4",
         type: "Aqua",
         role: "Attacker",
         image: "/exedra-4s-png/asuka_tatsuki_4S.png",
@@ -38,7 +38,7 @@ export const CharacterData_four = [
       },
       {
         name: "Nanaka Tokiwa",
-        rarity: "4*",
+        rarity: "4",
         type: "Forest",
         role: "Attacker",
         image: "/exedra-4s-png/nanaka_tokiwa_4S.png",
@@ -75,7 +75,7 @@ export const CharacterData_four = [
       },
       {
         name: "Masara Kagami",
-        rarity: "4*",
+        rarity: "4",
         type: "Void",
         role: "Attacker",
         image: "/exedra-4s-png/masara_kagami_4S.png",
@@ -115,7 +115,7 @@ export const CharacterData_four = [
       },
       {
         name: "Kush Irina",
-        rarity: "4*",
+        rarity: "4",
         type: "Dark",
         role: "Attacker",
         image: "/exedra-4s-png/kush_irina_4S.png",
@@ -152,7 +152,7 @@ export const CharacterData_four = [
       },
       {
         name: "Karin Misono",
-        rarity: "4*",
+        rarity: "4",
         type: "Flame",
         role: "Breaker",
         image: "/exedra-4s-png/karin_misono_4S.png",
@@ -189,7 +189,7 @@ export const CharacterData_four = [
       },
       {
         name: "Seika Kumi",
-        rarity: "4*",
+        rarity: "4",
         type: "Aqua",
         role: "Breaker",
         image: "/exedra-4s-png/seika_kumi_4S.png",
@@ -226,7 +226,7 @@ export const CharacterData_four = [
       },
       {
         name: "Mito Aino",
-        rarity: "4*",
+        rarity: "4",
         type: "Forest",
         role: "Breaker",
         image: "/exedra-4s-png/mito_aino_4S.png",
@@ -263,7 +263,7 @@ export const CharacterData_four = [
       },
       {
         name: "Ashley Taylor",
-        rarity: "4*",
+        rarity: "4",
         type: "Void",
         role: "Breaker",
         image: "/exedra-4s-png/ashley_taylor_4S.png",
@@ -300,7 +300,7 @@ export const CharacterData_four = [
       },
       {
         name: "Hazuki Yusa",
-        rarity: "4*",
+        rarity: "4",
         type: "Light",
         role: "Buffer",
         image: "/exedra-4s-png/hazuki_yusa_4S.png",
@@ -337,7 +337,7 @@ export const CharacterData_four = [
       },
       {
         name: "Rika Ayano",
-        rarity: "4*",
+        rarity: "4",
         type: "Flame",
         role: "Buffer",
         image: "/exedra-4s-png/rika_ayano_4S.png",
@@ -374,7 +374,7 @@ export const CharacterData_four = [
       },
       {
         name: "Riko Chiaki",
-        rarity: "4*",
+        rarity: "4",
         type: "Light",
         role: "Buffer",
         image: "/exedra-4s-png/riko_chiaki_4S.png",
@@ -411,7 +411,7 @@ export const CharacterData_four = [
       },
       {
         name: "Hanna Sarasa",
-        rarity: "4*",
+        rarity: "4",
         type: "Dark",
         role: "Debuffer",
         image: "/exedra-4s-png/hanna_sarasa_4S.png",
@@ -448,7 +448,7 @@ export const CharacterData_four = [
       },
       {
         name: "Himika Mao",
-        rarity: "4*",
+        rarity: "4",
         type: "Flame",
         role: "Debuffer",
         image: "/exedra-4s-png/himika_mao_4S.png",
@@ -485,7 +485,7 @@ export const CharacterData_four = [
       },
       {
         name: "Ayame Mikuri",
-        rarity: "4*",
+        rarity: "4",
         type: "Flame",
         role: "Debuffer",
         image: "/exedra-4s-png/ayame_mikuri_4S.png",
@@ -522,7 +522,7 @@ export const CharacterData_four = [
       },
       {
         name: "Kokoro Awane",
-        rarity: "4*",
+        rarity: "4",
         type: "Light",
         role: "Defender",
         image: "/exedra-4s-png/kokoro_awane_4S.png",
@@ -559,7 +559,7 @@ export const CharacterData_four = [
       },
       {
         name: "Leila Ibuki",
-        rarity: "4*",
+        rarity: "4",
         type: "Flame",
         role: "Healer",
         image: "/exedra-4s-png/reira_ibuki_4S.png",
@@ -596,7 +596,7 @@ export const CharacterData_four = [
       },
       {
         name: "Yuma Chitose",
-        rarity: "4*",
+        rarity: "4",
         type: "Forest",
         role: "Healer",
         image: "/exedra-4s-png/yuma_chitose_4S.png",

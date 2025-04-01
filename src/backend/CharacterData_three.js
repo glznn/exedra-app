@@ -1,7 +1,7 @@
 export const CharacterData_three = [ 
     {
         name: "Asuka Tatsuki",
-        rarity: "3*",
+        rarity: "3",
         type: "Aqua",
         role: "Attacker",
         image: "/exedra-3s-png/asuka_tatsuki_3S.png",
@@ -37,7 +37,7 @@ export const CharacterData_three = [
       },
       {
         name: "Masara Kagami",
-        rarity: "3*",
+        rarity: "3",
         type: "Light",
         role: "Attacker",
         image: "/exedra-3s-png/masara_kagami_3S.png",
@@ -73,7 +73,7 @@ export const CharacterData_three = [
       },
       {
         name: "Rika Ayano",
-        rarity: "3*",
+        rarity: "3",
         type: "Flame",
         role: "Attacker",
         image: "/exedra-3s-png/rika_ayano_3S.png",
@@ -109,7 +109,7 @@ export const CharacterData_three = [
       },
       {
         name: "Ashley Taylor",
-        rarity: "3*",
+        rarity: "3",
         type: "Dark",
         role: "Attacker",
         image: "/exedra-3s-png/ashley_taylor_3S.png",
@@ -145,7 +145,7 @@ export const CharacterData_three = [
       },
       {
         name: "Kush Irina",
-        rarity: "3*",
+        rarity: "3",
         type: "Dark",
         role: "Attacker",
         image: "/exedra-3s-png/kush_irina_3S.png",
@@ -181,7 +181,7 @@ export const CharacterData_three = [
       },
       {
         name: "Kako Natsume",
-        rarity: "3*",
+        rarity: "3",
         type: "Forest",
         role: "Attacker",
         image: "/exedra-3s-png/kako_natsume_3S.png",
@@ -218,7 +218,7 @@ export const CharacterData_three = [
       },
       {
         name: "Karin Misono",
-        rarity: "3*",
+        rarity: "3",
         type: "Flame",
         role: "Breaker",
         image: "/exedra-3s-png/karin_misono_3S.png",
@@ -254,7 +254,7 @@ export const CharacterData_three = [
       },
       {
         name: "Reira Ibuki",
-        rarity: "3*",
+        rarity: "3",
         type: "Flame",
         role: "Breaker",
         image: "/exedra-3s-png/reira_ibuki_3S.png",
@@ -290,7 +290,7 @@ export const CharacterData_three = [
       },
       {
         name: "Seika Kumi",
-        rarity: "3*",
+        rarity: "3",
         type: "Aqua",
         role: "Breaker",
         image: "/exedra-3s-png/seika_kumi_3S.png",
@@ -326,7 +326,7 @@ export const CharacterData_three = [
       },
       {
         name: "Hanna Sarasa",
-        rarity: "3*",
+        rarity: "3",
         type: "Dark",
         role: "Breaker",
         image: "/exedra-3s-png/hanna_sarasa_3S.png",
@@ -362,7 +362,7 @@ export const CharacterData_three = [
       },
       {
         name: "Riko Chiaki",
-        rarity: "3*",
+        rarity: "3",
         type: "Light",
         role: "Breaker",
         image: "/exedra-3s-png/riko_chiaki_3S.png",
@@ -398,7 +398,7 @@ export const CharacterData_three = [
       },
       {
         name: "Meiyui Chun",
-        rarity: "3*",
+        rarity: "3",
         type: "Aqua",
         role: "Breaker",
         image: "/exedra-3s-png/meiyui_chun_3S.png",
@@ -434,7 +434,7 @@ export const CharacterData_three = [
       },
       {
         name: "Nanaka Tokiwa",
-        rarity: "3*",
+        rarity: "3",
         type: "Forest",
         role: "Buffer",
         image: "/exedra-3s-png/nanaka_tokiwa_3S.png",
@@ -470,7 +470,7 @@ export const CharacterData_three = [
       },
       {
         name: "Himika Mao",
-        rarity: "3*",
+        rarity: "3",
         type: "Flame",
         role: "Buffer",
         image: "/exedra-3s-png/himika_mao_3S.png",
@@ -506,7 +506,7 @@ export const CharacterData_three = [
       },
       {
         name: "Ayame Mikuri",
-        rarity: "3*",
+        rarity: "3",
         type: "Flame",
         role: "Buffer",
         image: "/exedra-3s-png/ayame_mikuri_3S.png",
@@ -542,7 +542,7 @@ export const CharacterData_three = [
       },
       {
         name: "Natsuki Utsuho",
-        rarity: "3*",
+        rarity: "3",
         type: "Aqua",
         role: "Buffer",
         image: "/exedra-3s-png/natsuki_utsuho_3s.png",
@@ -578,7 +578,7 @@ export const CharacterData_three = [
       },
       {
         name: "Mito Aino",
-        rarity: "3*",
+        rarity: "3",
         type: "Forest",
         role: "Debuffer",
         image: "/exedra-3s-png/mito_aino_3S.png",
@@ -614,7 +614,7 @@ export const CharacterData_three = [
       },
       {
         name: "Hazuki Yusa",
-        rarity: "3*",
+        rarity: "3",
         type: "Light",
         role: "Debuffer",
         image: "/exedra-3s-png/hazuki_yusa_3S.png",
@@ -650,7 +650,7 @@ export const CharacterData_three = [
       },
       {
         name: "Kokoro Awane",
-        rarity: "3*",
+        rarity: "3",
         type: "Light",
         role: "Defender",
         image: "/exedra-3s-png/kokoro_awane_3S.png",
@@ -686,7 +686,7 @@ export const CharacterData_three = [
       },
       {
         name: "Yuma Chitose",
-        rarity: "3*",
+        rarity: "3",
         type: "Forest",
         role: "Healer",
         image: "/exedra-3s-png/yuma_chitose_3S.png",
@@ -722,7 +722,7 @@ export const CharacterData_three = [
       },
       {
         name: "Konoha Shizumi",
-        rarity: "3*",
+        rarity: "3",
         type: "Aqua",
         role: "Healer",
         image: "/exedra-3s-png/konoha_shizumi_3S.png",
