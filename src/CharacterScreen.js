@@ -3,7 +3,9 @@ import { CharacterData_five } from './backend/CharacterData_five'
 import { CharacterData_four } from './backend/CharacterData_four'
 import { CharacterData_three } from './backend/CharacterData_three'
 import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
+import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-router-dom';
 import './CharacterScreen.css'
+import KiokuScreen from './KiokuScreen'
 
 function CharacterScreen() {
   const [elementFilter, setElementFilter] = useState('');
@@ -11,11 +13,13 @@ function CharacterScreen() {
   const [rarityFilter, setRarityFilter] = useState('');
   const [nameFilter, setNameFilter] = useState('');
 
+  const navigate = useNavigate();
+
   const allCharacterData = [
     ...CharacterData_five,
     ...CharacterData_four,
-    ...CharacterData_three,
-  ];
+    ...CharacterData_three
+  ]
 
   const filteredData = allCharacterData.filter((character) => {
     if (nameFilter && !character.name.toUpperCase().includes(nameFilter)) {
@@ -31,7 +35,7 @@ function CharacterScreen() {
     }
 
     
-    if (rarityFilter && character.rarity !== rarityFilter + "*") {
+    if (rarityFilter && character.rarity !== rarityFilter) {
       return false;
     }
 
@@ -120,7 +124,11 @@ function CharacterScreen() {
             <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
             <img className="char__role" src={"/exedra-icons/role/" + character.role + ".png"}></img>
             <div className="charimg__container">
-            <img src={character.image} className="char__image" />
+            <img src={character.image} className="char__image"
+            onClick={() => {
+              navigate(`/characters/${character.spatk.name}`);
+            }}
+             />
             </div>
           </div>
         ))}

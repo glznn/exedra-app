@@ -6,6 +6,7 @@ import HomeScreen from './HomeScreen'
 import CharacterScreen from './CharacterScreen'
 import TierListScreen from './TierListScreen'
 import SimulatorScreen from './SimulatorScreen'
+import KiokuScreen from './KiokuScreen'
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-router-dom';
 
 
@@ -20,8 +21,9 @@ function LandingPage() {
             <Route path="/characters" element={<CharacterScreen />} />
             <Route path="/tierlist" element={<TierListScreen />} />
             <Route path="/simulator" element={<SimulatorScreen />} />
+            <Route path="/characters/:path" element={<KiokuScreen />} />
           </Routes>
-      </Router>
+        </Router>
     </div>
   )
 }
