@@ -77,7 +77,7 @@ function CharacterScreen() {
               onClick={() => handleElementFilter(val.type)}
               >
                 <div id="elemIcon">
-                  <img src={val.image} title={val.type}></img>
+                  <img className="char__elemPng" src={val.image} title={val.type}></img>
                 </div>
               </li>
             )
