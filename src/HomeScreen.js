@@ -17,7 +17,7 @@ function HomeScreen() {
 
         </div>
         <div className="home__content">
-        <iframe width="60%" height="425" 
+        <iframe className="home__video" width="50%" height="auto" 
         src="https://www.youtube.com/embed/L8WHpJEQ6Ls?si=aTcKQABYdR4E9NxA" 
         title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
