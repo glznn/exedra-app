@@ -16,13 +16,15 @@
   }
 
 .kioku__header {
+    left:1.5%;
+    position:absolute;
+    min-width: 500px;
     width:50vw;
     height:auto;
-    left: 1.5%;
     display: flex;
     position:relative;
     top:100px;
-    font-size: 1.25vw;
+    font-size: calc(10px + 0.8vw);
     color:white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -35,14 +37,18 @@
 
 .kioku__elem #png {
     width:4vw;
+    min-width: 45px;
     height:auto;
 }
 
 .kioku__role {
-    transform:scale(0.55);
-    margin:-50px;
-    margin-right:-20px;
-    margin-bottom:-90px;
+    padding-top: 1.5%;
+}
+
+.kioku__role #png {
+    width:5vw;
+    min-width: 50px;
+    height:auto;
 }
 
 .kioku__image {
@@ -63,7 +69,7 @@
 .kioku__5stars {
     top:20%;
     position:absolute;
-    margin-top:calc(9vw - 10.5vh);
+    margin-top:calc(10vw - 10.5vh);
 }
 
 
@@ -81,8 +87,8 @@
 }
 
 .kioku__star {
-    min-width: 10vh;
-    padding-left:max(38vw, 455px);
+    min-width: 130px;
+    padding-left:max(38vw, 445px);
     width:10vw;
     height:100%;
 }
