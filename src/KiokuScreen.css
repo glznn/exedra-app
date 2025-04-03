@@ -16,43 +16,45 @@
   }
 
 .kioku__header {
-    left:1.5%;
+    left:calc(125px + 1.5%);
+    margin-left: -8%;
     position:absolute;
-    min-width: 500px;
+    min-width: 550px;
     width:50vw;
     height:auto;
     display: flex;
     position:relative;
     top:100px;
-    font-size: calc(10px + 0.8vw);
+    font-size: calc(8px + 0.90vw);
     color:white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
 .kioku__elem {
-    margin-top: 3%;
-    padding-left:30%;
+    margin-top:1%;
+    padding-left:35%;
+    margin-left:calc(10px - 10%);
 }
 
 .kioku__elem #png {
-    width:4vw;
+    width:5vw;
     min-width: 45px;
     height:auto;
 }
 
 .kioku__role {
-    padding-top: 1.5%;
+    padding-top: 0%;
 }
 
 .kioku__role #png {
-    width:5vw;
-    min-width: 50px;
+    width:6vw;
+    min-width: 55px;
     height:auto;
 }
 
 .kioku__image {
-    left:1.5%;
+    left:calc(125px + 1.5%);
+    margin-left: -8%;
     top:max(10vh, 75px);
     display:flex;
     flex-direction: row;
@@ -67,22 +69,25 @@
 }
 
 .kioku__5stars {
-    top:20%;
+    top:calc(20% - 1vw);
     position:absolute;
     margin-top:calc(10vw - 10.5vh);
+    left:calc(125px + 16%);
+    margin-left: -8%;
 }
 
 
 .kioku__4stars {
+    margin-top:calc(10vw - 10.5vh);
+    top:20%;
     margin-left:-0.21%;
+    position:absolute;
 }
 
 .kioku__3stars {
-    transform:scale(0.70);
-    top: 320px;
-    left:1035px;
-    height: 100px;
-    width: 100px;
+    margin-top:calc(10vw - 10.5vh);
+    top:22.5%;
+    margin-left:-0.21%;
     position:absolute;
 }
 
