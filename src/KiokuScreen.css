@@ -1,5 +1,6 @@
 .KiokuScreen {
     padding-left:15%;
+    height:200vh;
 }
 
 .kioku__banner {
@@ -19,8 +20,9 @@
     left:calc(125px + 1.5%);
     margin-left: -8%;
     position:absolute;
-    min-width: 550px;
-    width:50vw;
+    min-width: 500px;
+    width:max(41.5vw, 500px);
+    max-width:1300px;
     height:auto;
     display: flex;
     position:relative;
@@ -28,18 +30,25 @@
     font-size: calc(8px + 0.90vw);
     color:white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom:30px;
+}
+
+.kioku__header #txt { 
+    position:absolute;
 }
 
 .kioku__elem {
     margin-top:1%;
     padding-left:35%;
-    margin-left:calc(10px - 10%);
+    margin-left:auto;
+    margin-right:0;
 }
 
 .kioku__elem #png {
-    width:5vw;
+    width:4.5vw;
     min-width: 45px;
-    height:auto;
+    max-width:120px;
+
 }
 
 .kioku__role {
@@ -47,9 +56,10 @@
 }
 
 .kioku__role #png {
-    width:6vw;
-    min-width: 55px;
+    width:5.5vw;
+    min-width: 60px;
     height:auto;
+    max-width:150px;
 }
 
 .kioku__image {
@@ -59,6 +69,7 @@
     display:flex;
     flex-direction: row;
     position: relative;
+    width:1400px;
 }
 
 .kioku__png {
@@ -69,26 +80,28 @@
 }
 
 .kioku__5stars {
-    top:calc(20% - 1vw);
+    top:max(150px, calc(20% - 1vw));
     position:absolute;
-    margin-top:calc(10vw - 10.5vh);
+    margin-top:calc(5vw - 3vh);
     left:calc(125px + 16%);
     margin-left: -8%;
 }
 
 
 .kioku__4stars {
-    margin-top:calc(10vw - 10.5vh);
-    top:20%;
-    margin-left:-0.21%;
+    top:max(150px, calc(22% - 1vw));
     position:absolute;
+    margin-top:calc(10vw - 10.5vh);
+    left:calc(125px + 16%);
+    margin-left: -8%;
 }
 
 .kioku__3stars {
-    margin-top:calc(10vw - 10.5vh);
-    top:22.5%;
-    margin-left:-0.21%;
+    top:max(150px, calc(24% - 1vw));
     position:absolute;
+    margin-top:calc(10vw - 10.5vh);
+    left:calc(125px + 16%);
+    margin-left: -8%;
 }
 
 .kioku__star {
@@ -96,23 +109,25 @@
     padding-left:max(38vw, 445px);
     width:10vw;
     height:100%;
+    
 }
 
 .kioku__stats {
     padding-top:5px;
     padding-right:30px;
-    width:15%;
     background:rgba(95, 94, 93, 0.726);
     border-radius:10px;
-    left:1300px;
-    top:275px;
     color:rgb(255, 255, 255);
     border: solid, rgba(255, 255, 255, 0.596), 5px;
     list-style-type: none;
     display:inline-flex;
     flex-direction: column;
     position:absolute;
-    font-size: 15px;
+    width:4.5vw;
+    height:auto;
+    left:max(760px, 65vw);
+    top:max(180px, calc(3vw + 16vh));
+    font-size: 0.6vw;
 }
 
 .kioku__hp {
@@ -135,24 +150,111 @@
 
 .kioku__spAtk {
     padding:30px;
-    height: auto;
-    width: 50%;
-    top: 100px;
-    left: 230px;
-    font-size:25px;
+    top:15vh;
+    left:calc(125px + 1.5%);
+    margin-left: -8%;
+    font-size:2vh;
     color:white;
     position:relative;
     background:rgba(0, 0, 0, 0.596);
     border-radius: 10px;
     border:white solid 2px;
+    width:max(38vw, 435px);
+    height: auto;
 }
 
 .kioku__special {
     margin-top:-10px;
+    font-size: 2.3vh;
+    margin-bottom: 10px;
 }
 
 .kioku__spAtkName {
     background-image: linear-gradient(rgb(255, 255, 255),rgb(148, 0, 153));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+.kioku__attacks {
+    list-style-type: none;
+    display:flex;
+    margin-left: -10%;
+}
+
+.kioku__skill {
+    margin-right:10px;
+    padding:30px;
+    top:15vh;
+    font-size:1.8vh;
+    color:white;
+    position:relative;
+    background:rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    border:white solid 2px;
+    width:calc(max(38vw, 435px)/2);
+    height: calc(25vh - 3vw);
+    left:calc(125px + 1.5%);
+}
+
+.kioku__abilities {
+    list-style-type: none;
+    display:flex;
+    margin-left: -10%;
+}
+
+.kioku__ability {
+    margin-right:10px;
+    padding:30px;
+    top:15vh;
+    font-size:1.8vh;
+    color:white;
+    position:relative;
+    background:rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    border:white solid 2px;
+    width:calc(max(38vw, 435px)/2);
+    height: calc(25vh - 3vw);
+    left:calc(125px + 1.5%);
+}
+
+#highlightAqua {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(67, 80, 255));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+#highlightDark {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(135, 50, 245));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+#highlightFlame {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(233, 31, 31));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+#highlightForest {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(113, 255, 78));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+#highlightLight {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 227, 104));
+    color:rgba(255, 0, 0, 0);
+    background-clip: text;
+    z-index: 2;
+}
+
+#highlightVoid {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(114, 116, 115));
     color:rgba(255, 0, 0, 0);
     background-clip: text;
     z-index: 2;

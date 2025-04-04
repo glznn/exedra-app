@@ -40,12 +40,12 @@ function KiokuScreen() {
         <img className="kioku__banner image" src={allCharacterData[charIndex].image}></img>
         </div>
         <div className="kioku__header">
-        <h1>{allCharacterData[charIndex].name}</h1>
+        <h1 id="txt">{allCharacterData[charIndex].name}</h1>
             <div className="kioku__elem">
-                <img src={`/exedra-icons/elements/${allCharacterData[charIndex].type}-elem.png`}></img>
+                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type}-elem.png`}></img>
             </div>
             <div className="kioku__role">
-                <img src={`/exedra-icons/role/${allCharacterData[charIndex].role}.png`}></img>
+                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role}.png`}></img>
             </div>
         </div>
         <div className="kioku__image">
@@ -54,36 +54,52 @@ function KiokuScreen() {
         <div className={`kioku__${allCharacterData[charIndex].rarity}stars`}>
             <img className="kioku__star" src={`/exedra-icons/rarity/${allCharacterData[charIndex].rarity}star.png`}></img>
         </div>
+
         <ul className="kioku__stats">
-            <li className="kioku__hp"> <h1> {allCharacterData[charIndex].stats.hp} HP <IoHeart /> </h1></li>
-            <li className="kioku__atk"> <h1> {allCharacterData[charIndex].stats.atk} ATK <PiSwordDuotone /> </h1> </li>
-            <li className="kioku__def"> <h1> {allCharacterData[charIndex].stats.def} DEF <MdShield /></h1> </li>
-            <li className="kioku__spd"> <h1> {allCharacterData[charIndex].stats.spd} SPD <GiWalkingBoot /> </h1></li>
+            <li className="kioku__hp"> <h1> HP {allCharacterData[charIndex].stats.hp} </h1></li>
+            <li className="kioku__atk"> <h1> ATK {allCharacterData[charIndex].stats.atk} </h1> </li>
+            <li className="kioku__def"> <h1> DEF {allCharacterData[charIndex].stats.def} </h1> </li>
+            <li className="kioku__spd"> <h1> SPD <br></br>{allCharacterData[charIndex].stats.spd} </h1></li>
         </ul>
+
         <p className="kioku__spAtk">
             <h2 className="kioku__special">Special Attack:</h2>
-        <span className="kioku__spAtkName">{allCharacterData[charIndex].spatk.name}</span><br></br>
+            <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].spatk.name}</span><br></br>
         {allCharacterData[charIndex].spatk.desc}
         </p>
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Basic Attack:</h2>
-            {allCharacterData[charIndex].basicatk}
-        </p>
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Battle Skill:</h2>
-        <span className="kioku__spAtkName">{allCharacterData[charIndex].skill.name}</span><br></br>
-        {allCharacterData[charIndex].skill.desc}
-        </p>
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Ability:</h2>
-        <span className="kioku__spAtkName">{allCharacterData[charIndex].ability.name}</span><br></br>
-        {allCharacterData[charIndex].ability.desc}
-        </p>
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Support Ability:</h2>
-        <span className="kioku__spAtkName">{allCharacterData[charIndex].suppability.name}</span><br></br>
-        {allCharacterData[charIndex].suppability.desc}
-        </p>
+
+        <ul className="kioku__attacks">
+            <li>
+            <p className="kioku__skill">
+                <h2 className="kioku__special">Basic Attack:</h2>
+                {allCharacterData[charIndex].basicatk}
+            </p>
+            </li>
+            <li>
+            <p className="kioku__skill">
+                <h2 className="kioku__special">Battle Skill:</h2>
+                <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].skill.name}</span><br></br>
+            {allCharacterData[charIndex].skill.desc}
+            </p>
+            </li>
+        </ul>
+
+        <ul className="kioku__abilities">
+            <li>
+            <p className="kioku__ability">
+                <h2 className="kioku__special">Ability:</h2>
+            <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].ability.name}</span><br></br>
+            {allCharacterData[charIndex].ability.desc}
+            </p>
+            </li>
+            <li>
+            <p className="kioku__ability">
+                <h2 className="kioku__special">Support Ability:</h2>
+                <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].suppability.name}</span><br></br>
+            {allCharacterData[charIndex].suppability.desc}
+            </p>
+            </li>
+        </ul>
         <p className="kioku__spAtk">
             <h2 className="kioku__special">Ascension:</h2>
         Lvl 1: {allCharacterData[charIndex].asc[1]}<br></br><br></br>

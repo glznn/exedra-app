@@ -34,7 +34,7 @@
 .sidebar__row {
     cursor:pointer;
     width:100%;
-    height: 10vh;
+    height: max(10vh, 75px);
     list-style-type: none;
     margin: 0%;
     display:flex;
