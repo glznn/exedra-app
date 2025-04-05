@@ -30,21 +30,9 @@
     flex-direction: row;
     width:50vw;
     height:auto;
-    padding-left:10%
+    padding-left:10vw;
 }
 
-.char__filterbar #userInput{
-    display:inline-flex;
-    flex-direction: column;
-    width:auto;
-    height: 5vh;
-    background: black;
-    color:white;
-    border: 1px solid rgb(61, 65, 68);
-    font-size: 20px;
-    font-style: bold;
-    padding-left: 1.2%;
-}
 
 .char__elemFilter {
     list-style-type: none;
@@ -115,6 +103,19 @@
     flex-direction: row;
     cursor:pointer;
     border: 1px solid rgb(61, 65, 68);
+}
+
+.char__search{
+    display:inline-flex;
+    flex-direction: column;
+    width:auto;
+    height: 5vh;
+    background: black;
+    color:white;
+    border: 1px solid rgb(61, 65, 68);
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 1.2%;
 }
 
 .char__card {

@@ -29,15 +29,6 @@ function HomeScreen() {
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         </div>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
-        <h1>THIS IS THE HOMESCREEN</h1>
     </div>
   )
 }

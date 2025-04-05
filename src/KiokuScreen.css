@@ -11,9 +11,10 @@
 .kioku__banner .image {
     margin-left:-10%;
     display: flex;
-    width: 120%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     opacity: 0.10;
+    object-fit: cover;
   }
 
 .kioku__header {
@@ -148,7 +149,7 @@
 
 }
 
-.kioku__spAtk {
+.kioku__kit {
     padding:30px;
     top:15vh;
     left:calc(125px + 1.5%);
@@ -159,14 +160,16 @@
     background:rgba(0, 0, 0, 0.596);
     border-radius: 10px;
     border:white solid 2px;
-    width:max(38vw, 435px);
+    width:max(52vw, 435px);
     height: auto;
 }
 
-.kioku__special {
+.kioku__kitTitle {
     margin-top:-10px;
+    padding-bottom:10px;
     font-size: 2.3vh;
     margin-bottom: 10px;
+    border-bottom: solid gray 1px;
 }
 
 .kioku__spAtkName {

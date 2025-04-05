@@ -7,7 +7,7 @@ import CharacterScreen from './CharacterScreen'
 import TierListScreen from './TierListScreen'
 import SimulatorScreen from './SimulatorScreen'
 import KiokuScreen from './KiokuScreen'
-import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 function LandingPage() {

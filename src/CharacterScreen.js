@@ -5,7 +5,6 @@ import { CharacterData_three } from './backend/CharacterData_three'
 import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-router-dom';
 import './CharacterScreen.css'
-import KiokuScreen from './KiokuScreen'
 
 function CharacterScreen() {
   const [elementFilter, setElementFilter] = useState('');
@@ -111,13 +110,13 @@ function CharacterScreen() {
             )
           })}
         </ul>
-        <input type="text" 
+      </div>
+      <input className="char__search" type="text" 
         id="userInput" 
         autoComplete='off'
         onChange={handleNameFilter} 
         placeholder="Search for kioku...">
         </input>
-      </div>
       <div className="char__list">
         {filteredData.map((character, index) => (
           <div className="char__card" key={index}>

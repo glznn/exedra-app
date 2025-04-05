@@ -5,13 +5,8 @@ import { CharacterData_five } from './backend/CharacterData_five.js'
 import { CharacterData_four } from './backend/CharacterData_four.js'
 import { CharacterData_three } from './backend/CharacterData_three.js'
 
-import { IoHeart } from "react-icons/io5";
-import { PiSwordDuotone } from "react-icons/pi";
-import { MdShield } from "react-icons/md";
-import { GiWalkingBoot } from "react-icons/gi";
-
-
 import './KiokuScreen.css'
+import ColorText from './ColorText'
 
 const allCharacterData = [
     ...CharacterData_five,
@@ -62,51 +57,37 @@ function KiokuScreen() {
             <li className="kioku__spd"> <h1> SPD <br></br>{allCharacterData[charIndex].stats.spd} </h1></li>
         </ul>
 
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Special Attack:</h2>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Special Attack:</h2>
             <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].spatk.name}</span><br></br>
-        {allCharacterData[charIndex].spatk.desc}
+            <ColorText text={allCharacterData[charIndex].spatk.desc} />
         </p>
-
-        <ul className="kioku__attacks">
-            <li>
-            <p className="kioku__skill">
-                <h2 className="kioku__special">Basic Attack:</h2>
-                {allCharacterData[charIndex].basicatk}
-            </p>
-            </li>
-            <li>
-            <p className="kioku__skill">
-                <h2 className="kioku__special">Battle Skill:</h2>
-                <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].skill.name}</span><br></br>
-            {allCharacterData[charIndex].skill.desc}
-            </p>
-            </li>
-        </ul>
-
-        <ul className="kioku__abilities">
-            <li>
-            <p className="kioku__ability">
-                <h2 className="kioku__special">Ability:</h2>
-            <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].ability.name}</span><br></br>
-            {allCharacterData[charIndex].ability.desc}
-            </p>
-            </li>
-            <li>
-            <p className="kioku__ability">
-                <h2 className="kioku__special">Support Ability:</h2>
-                <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].suppability.name}</span><br></br>
-            {allCharacterData[charIndex].suppability.desc}
-            </p>
-            </li>
-        </ul>
-        <p className="kioku__spAtk">
-            <h2 className="kioku__special">Ascension:</h2>
-        Lvl 1: {allCharacterData[charIndex].asc[1]}<br></br><br></br>
-        Lvl 2: {allCharacterData[charIndex].asc[2]}<br></br><br></br>
-        Lvl 3: {allCharacterData[charIndex].asc[3]}<br></br><br></br>
-        Lvl 4: {allCharacterData[charIndex].asc[4]}<br></br><br></br>
-        Lvl 5: {allCharacterData[charIndex].asc[5]}<br></br><br></br>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Basic Attack:</h2>
+            <ColorText text={allCharacterData[charIndex].basicatk} />
+        </p>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Battle Skill:</h2>
+            <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].skill.name}</span><br></br>
+            <ColorText text={allCharacterData[charIndex].skill.desc}/>
+        </p>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Ability:</h2>
+        <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].ability.name}</span><br></br>
+                <ColorText text={allCharacterData[charIndex].ability.desc}/>
+        </p>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Support Ability:</h2>
+            <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].suppability.name}</span><br></br>
+            <ColorText text={allCharacterData[charIndex].suppability.desc} />
+        </p>
+        <p className="kioku__kit">
+            <h2 className="kioku__kitTitle">Ascension:</h2>
+        Lvl 1: <ColorText text={allCharacterData[charIndex].asc[1]}/><br></br><br></br>
+        Lvl 2: <ColorText text={allCharacterData[charIndex].asc[2]}/><br></br><br></br>
+        Lvl 3: <ColorText text={allCharacterData[charIndex].asc[3]}/><br></br><br></br>
+        Lvl 4: <ColorText text={allCharacterData[charIndex].asc[4]}/><br></br><br></br>
+        Lvl 5: <ColorText text={allCharacterData[charIndex].asc[5]}/><br></br>
         </p>
     </div>
   )

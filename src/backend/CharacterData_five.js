@@ -1,4 +1,78 @@
 export const CharacterData_five = [
+  {
+    name: "Kyoko Sakura",
+    rarity: "5",
+    type: "Flame",
+    role: "Attacker",
+    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A4.jpg",
+    stats: {
+        hp: 6959,
+        atk: 3149,
+        def: 2328,
+        spd: 86
+    },
+    spatk: {
+        name: "Kugatchi",
+        desc: "Deals 500% flame DMG to a single enemy. If target's break bonus is 350% or higher, increases DMG dealt by 30%."
+    },
+    basicatk: "Deals 100% flame DMG to a single enemy",
+    skill: {
+        name: "Crimson Lotus Spear",
+        desc: "Deals 270% flame DMG to a single enemy. If target not in break, increases own SPD by 30% (2 turns). If target in break, increases own ATK by 20% (2 turns)."
+    },
+    ability: {
+        name: "Assault Haste",
+        desc: "If HP 80% or higher, increases SPD by 30%. If HP 50% or higher, increases ATK by 20%."
+    },
+    suppability: {
+        name: "Assault Blast",
+        desc: "Equipped to Flame: Increases ATK by 15%, and if target in break, increases DMG dealt by 12%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases DMG dealt to enemies in break 20%, and on attack to enemy with lower than 350% break bonus, advances action order by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Mami Tomoe",
+    rarity: "5",
+    type: "Forest",
+    role: "Buffer",
+    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A3.jpg",
+    stats: {
+        hp: 7866,
+        atk: 2568,
+        def: 2607,
+        spd: 120
+    },
+    spatk: {
+        name: "Tiro Finale",
+        desc: "Deals 360% forest DMG to a single enemy and 270% forest DMG to enemies in proximity. Increases all allies' DMG dealt by 40% (2 turns) and MP recovery rate by 20% (2 turns). Grants 3 Magic to self."
+    },
+    basicatk: "Deals 100% forest DMG to a single enemy. Grants 1 Magic to self.",
+    skill: {
+        name: "Tiro Volley",
+        desc: "Deals 150% forest DMG to all enemies. Increases all allies' ATK by 20% (2 turns). Grants 2 Magic to self."
+    },
+    ability: {
+        name: "Haste Quickness",
+        desc: "If HP 50% or higher, increases SPD by 30%. 0 Magic at battle start. At 5 Magic, advances all allies' action order by 20% and consumes 5 Magic. Max 5 Magic."
+    },
+    suppability: {
+        name: "Haste Rising",
+        desc: "Equipped to Forest: Increases SPD by 25%, and MP recovery rate by 10%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of buff effects applied.",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, grants 2 Magic, and increases all allies' SPD by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases buff effects applied by 50% (*excluding MP recovery and action order advance effects), and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
     {
         name: "Homura Akemi",
         rarity: "5",
