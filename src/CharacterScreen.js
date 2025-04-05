@@ -90,7 +90,7 @@ function CharacterScreen() {
               onClick={() => handleRoleFilter(val.role)}
               >
                 <div id="roleIcon">
-                  <img className="char__roleImg" src={val.image}></img>
+                  <img className="char__roleImg" src={val.image} title={val.type}></img>
                 </div>
               </li>
             )
