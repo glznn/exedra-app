@@ -221,6 +221,13 @@
     left:calc(125px + 1.5%);
 }
 
+/*
+    To not show the Special Attack title / description for 3 star characters.
+*/
+#rarity3 {
+    display:none;
+}
+
 #highlightAqua {
     background-image: linear-gradient(rgb(255, 255, 255),rgb(67, 80, 255));
     color:rgba(255, 0, 0, 0);

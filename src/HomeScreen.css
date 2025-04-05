@@ -24,7 +24,7 @@
     position:absolute;
     overflow:hidden;
     top: 125px;
-    font-size: 2.5vh;
+    font-size: min(3vw, 2.5vh);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 

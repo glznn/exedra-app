@@ -57,11 +57,15 @@ function KiokuScreen() {
             <li className="kioku__spd"> <h1> SPD <br></br>{allCharacterData[charIndex].stats.spd} </h1></li>
         </ul>
 
+
+        <div id={`rarity${allCharacterData[charIndex].rarity}`}>
         <p className="kioku__kit">
             <h2 className="kioku__kitTitle">Special Attack:</h2>
             <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].spatk.name}</span><br></br>
             <ColorText text={allCharacterData[charIndex].spatk.desc} />
         </p>
+        </div>
+        
         <p className="kioku__kit">
             <h2 className="kioku__kitTitle">Basic Attack:</h2>
             <ColorText text={allCharacterData[charIndex].basicatk} />
