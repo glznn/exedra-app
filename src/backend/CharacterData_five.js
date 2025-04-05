@@ -15,7 +15,7 @@ export const CharacterData_five = [
         name: "Kugatchi",
         desc: "Deals 500% flame DMG to a single enemy. If target's break bonus is 350% or higher, increases DMG dealt by 30%."
     },
-    basicatk: "Deals 100% flame DMG to a single enemy",
+    basicatk: "Deals 100% flame DMG to a single enemy.",
     skill: {
         name: "Crimson Lotus Spear",
         desc: "Deals 270% flame DMG to a single enemy. If target not in break, increases own SPD by 30% (2 turns). If target in break, increases own ATK by 20% (2 turns)."

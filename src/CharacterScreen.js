@@ -120,7 +120,7 @@ function CharacterScreen() {
       <div className="char__list">
         {filteredData.map((character, index) => (
           <div className="char__card" key={index}>
-            <img className="char__type" src={"/exedra-icons/elements/" + character.type + "-elem.png"}></img>
+            <img className="char__type" src={"/exedra-icons/" + character.type + "-elem.png"}></img>
             <img className="char__role" src={"/exedra-icons/role/" + character.role + ".png"}></img>
             <div className="charimg__container">
             <img src={character.image} className="char__image"
