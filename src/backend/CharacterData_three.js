@@ -12,7 +12,8 @@ export const CharacterData_three = [
           spd: 94
         },
         spatk: {
-          name :"Asuka’s Kioku"
+          name :"Asuka’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
@@ -49,6 +50,7 @@ export const CharacterData_three = [
         },
         spatk: {
           name: "Masara’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
@@ -84,7 +86,8 @@ export const CharacterData_three = [
           spd: 96
         },
         spatk: {
-          name: "Rika’s Kioku"
+          name: "Rika’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
@@ -120,7 +123,8 @@ export const CharacterData_three = [
           spd: 95
         },
         spatk: {
-          name: "Ashley’s Kioku"
+          name: "Ashley’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
@@ -156,7 +160,8 @@ export const CharacterData_three = [
           spd: 96
         },
         spatk: {
-          name: "Kush’s Kioku"
+          name: "Kush’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
@@ -193,7 +198,8 @@ export const CharacterData_three = [
         },
         spatk: 
         {
-          name: "Kako’s Kioku"
+          name: "Kako’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
@@ -229,7 +235,8 @@ export const CharacterData_three = [
           spd: 114
         },
         spatk: {
-          name: "Karin’s Kioku"
+          name: "Karin’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
@@ -265,7 +272,8 @@ export const CharacterData_three = [
           spd: 114
         },
         spatk: {
-          name: "Reira’s Kioku"
+          name: "Reira’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
@@ -301,7 +309,8 @@ export const CharacterData_three = [
           spd: 111
         },
         spatk: {
-          name: "Seika’s Kioku"
+          name: "Seika’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
@@ -337,7 +346,8 @@ export const CharacterData_three = [
           spd: 113
         },
         spatk: {
-          name: "Hanna’s Kioku"
+          name: "Hanna’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% dark DMG to a single enemy.",
         skill: {
@@ -373,7 +383,8 @@ export const CharacterData_three = [
           spd: 114
         },
         spatk: {
-          name: "Riko’s Kioku"
+          name: "Riko’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
@@ -409,7 +420,8 @@ export const CharacterData_three = [
           spd: 113
         },
         spatk: {
-          name: "Meiyu’s Kioku"
+          name: "Meiyu’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
@@ -445,7 +457,8 @@ export const CharacterData_three = [
           spd: 116
         },
         spatk: {
-          name:"Nanaka’s Kioku"
+          name:"Nanaka’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
@@ -481,7 +494,8 @@ export const CharacterData_three = [
           spd: 120
         },
         spatk: {
-          name: "Himika’s Kioku"
+          name: "Himika’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
@@ -517,7 +531,8 @@ export const CharacterData_three = [
           spd: 118
         },
         spatk: {
-          name: "Ayame’s Kioku"
+          name: "Ayame’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% flame DMG to a single enemy.",
         skill: {
@@ -553,7 +568,8 @@ export const CharacterData_three = [
           spd: 119
         },
         spatk: {
-          name: "Natsuki’s Kioku"
+          name: "Natsuki’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
@@ -589,7 +605,8 @@ export const CharacterData_three = [
           spd: 116
         },
         spatk: {
-          name: "Mito’s Kioku"
+          name: "Mito’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
@@ -625,7 +642,8 @@ export const CharacterData_three = [
           spd: 116
         },
         spatk: {
-          name: "Hazuki’s Kioku"
+          name: "Hazuki’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
@@ -661,7 +679,8 @@ export const CharacterData_three = [
           spd: 87
         },
         spatk: {
-          name: "Kokoro’s Kioku"
+          name: "Kokoro’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% light DMG to a single enemy.",
         skill: {
@@ -697,7 +716,8 @@ export const CharacterData_three = [
           spd: 101
         },
         spatk: {
-          name: "Yuma’s Kioku"
+          name: "Yuma’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% forest DMG to a single enemy.",
         skill: {
@@ -733,7 +753,8 @@ export const CharacterData_three = [
           spd: 109
         },
         spatk: {
-          name: "Konoha’s Kioku"
+          name: "Konoha’s Kioku",
+          desc: ""
         },
         basicatk: "Deals 100% aqua DMG to a single enemy.",
         skill: {
