@@ -189,7 +189,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Light",
         role: "Breaker",
-        image: "",  
+        image: "https://images.puella-magi.net/1/1a/Exedra_Madoka_Art_2.jpg",  
         stats: {
             hp: 8126,
             atk: 2407,
@@ -300,7 +300,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Void",
         role: "Debuffer",
-        image: "https://images.puella-magi.net/f/f2/Ren_profile.png",
+        image: "/exedra-5s-png/ren_isuzu_5S.png",
         stats: {
           hp: 7756,
           atk: 2611,

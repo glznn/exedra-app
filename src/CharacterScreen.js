@@ -64,7 +64,7 @@ function CharacterScreen() {
         </img>
 
       <div className="char__bannerMessage">
-      <h1>Characters</h1>
+      <h1><span className="home__gg">Characters</span></h1>
       <h4>View of all available Kioku</h4>
       </div>
       <div className="char__filterbar">
