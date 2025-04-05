@@ -17,17 +17,17 @@ function HomeScreen() {
 
         </div>
         <div className="home__content">
-        <iframe className="home__video" width="50%" height="auto" 
-        src="https://www.youtube.com/embed/L8WHpJEQ6Ls?si=aTcKQABYdR4E9NxA" 
-        title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <div className="home__tweet">
-        <a class="twitter-timeline"  
-        data-chrome="noscrollbar" data-width="500" data-height="425" data-theme="dark" 
-        href="https://twitter.com/madoka_exedraEN?ref_src=twsrc%5Etfw"></a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <iframe className="home__video"
+          src="https://www.youtube.com/embed/L8WHpJEQ6Ls?si=aTcKQABYdR4E9NxA" 
+          title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <div className="home__twitter">
+        <a class="twitter-timeline"  
+          data-chrome="noscrollbar" data-width="300" data-height="900" data-theme="dark" 
+          href="https://twitter.com/madoka_exedraEN?ref_src=twsrc%5Etfw"></a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
   )

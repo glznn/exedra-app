@@ -3,7 +3,7 @@
 
 .home__banner {
     width:95%;
-    height:40vh;
+    height:max(40vh, 150px);
     object-fit: cover;
     opacity: 0.10;
     padding-left:min(5%, 200px);
@@ -11,10 +11,9 @@
 
 .home__content {
     display:flex;
-    width:85%;
-    margin-right:10px;
     padding-top:15px;
-    padding-left:max(15%, 200px);
+    position:absolute;
+    left:195px;
 }
 
 .home__message{
@@ -23,7 +22,7 @@
     left:25%;
     position:absolute;
     overflow:hidden;
-    top: 125px;
+    top: max(10%, 70px);
     font-size: min(3vw, 2.5vh);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -37,9 +36,13 @@
 }
 
 .home__video {
-    padding-right: 100px;
+    width:50vw;
+    height:28.15vw
 }
 
-.home__tweet {
-    border: 5px solid black;
+
+.home__twitter {
+    padding-top:15px;
+    position:static;
+    padding-left:70vw;
 }
