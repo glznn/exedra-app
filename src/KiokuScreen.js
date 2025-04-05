@@ -37,10 +37,10 @@ function KiokuScreen() {
         <div className="kioku__header">
         <h1 id="txt">{allCharacterData[charIndex].name}</h1>
             <div className="kioku__elem">
-                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type}-elem.png`}></img>
+                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type.toLowerCase()}-elem.png`}></img>
             </div>
             <div className="kioku__role">
-                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role}.png`}></img>
+                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role.toLowerCase()}.png`}></img>
             </div>
         </div>
         <div className="kioku__image">
