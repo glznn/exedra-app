@@ -3,7 +3,7 @@ import { CharacterData_five } from './backend/CharacterData_five'
 import { CharacterData_four } from './backend/CharacterData_four'
 import { CharacterData_three } from './backend/CharacterData_three'
 import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
-import { BrowserRouter as Router, Route, Routes, Link, useNavigate} from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import './CharacterScreen.css'
 
 function CharacterScreen() {
@@ -60,7 +60,7 @@ function CharacterScreen() {
 
   return (
     <div className="CharacterScreen">
-      <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg">
+      <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg" alt="Homescreen Banner">
         </img>
 
       <div className="char__bannerMessage">
@@ -76,7 +76,7 @@ function CharacterScreen() {
               onClick={() => handleElementFilter(val.type)}
               >
                 <div id="elemIcon">
-                  <img className="char__elemPng" src={val.image} title={val.type}></img>
+                  <img className="char__elemPng" src={val.image} title={val.type} alt="Element Icon"></img>
                 </div>
               </li>
             )
@@ -90,7 +90,7 @@ function CharacterScreen() {
               onClick={() => handleRoleFilter(val.role)}
               >
                 <div id="roleIcon">
-                  <img className="char__roleImg" src={val.image} title={val.type}></img>
+                  <img className="char__roleImg" src={val.image} title={val.type} alt="Role Icon"></img>
                 </div>
               </li>
             )
@@ -120,13 +120,14 @@ function CharacterScreen() {
       <div className="char__list">
         {filteredData.map((character, index) => (
           <div className="char__card" key={index}>
-            <img className="char__type" src={"/exedra-icons/elements/" + character.type.toLowerCase() + "-elem.png"}></img>
-            <img className="char__role" src={"/exedra-icons/role/" + character.role.toLowerCase() + ".png"}></img>
+            <img className="char__type" src={"/exedra-icons/elements/" + character.type.toLowerCase() + "-elem.png"} alt="Element Icon"></img>
+            <img className="char__role" src={"/exedra-icons/role/" + character.role.toLowerCase() + ".png"} alt="Role Icon"></img>
             <div className="charimg__container">
             <img src={character.image} className="char__image"
             onClick={() => {
               navigate(`/characters/${character.spatk.name}`);
             }}
+            alt="Kioku"
              />
             </div>
           </div>

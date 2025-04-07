@@ -32,22 +32,22 @@ function KiokuScreen() {
   return (
     <div className="KiokuScreen">
         <div className="kioku__banner">
-        <img className="kioku__banner image" src={allCharacterData[charIndex].image}></img>
+        <img className="kioku__banner image" src={allCharacterData[charIndex].image} alt="Kioku Banner"></img>
         </div>
         <div className="kioku__header">
         <h1 id="txt">{allCharacterData[charIndex].name}</h1>
             <div className="kioku__elem">
-                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type.toLowerCase()}-elem.png`}></img>
+                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type.toLowerCase()}-elem.png`} alt="Element Icon"></img>
             </div>
             <div className="kioku__role">
-                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role.toLowerCase()}.png`}></img>
+                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role.toLowerCase()}.png`} alt="Role Icon"></img>
             </div>
         </div>
         <div className="kioku__image">
-        <img className="kioku__png" src={allCharacterData[charIndex].image}></img>
+        <img className="kioku__png" src={allCharacterData[charIndex].image} alt="Kioku"></img>
         </div>
         <div className={`kioku__${allCharacterData[charIndex].rarity}stars`}>
-            <img className="kioku__star" src={`/exedra-icons/rarity/${allCharacterData[charIndex].rarity}star.png`}></img>
+            <img className="kioku__star" src={`/exedra-icons/rarity/${allCharacterData[charIndex].rarity}star.png`} alt="Rarity Stars"></img>
         </div>
 
         <ul className="kioku__stats">

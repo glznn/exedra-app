@@ -25,7 +25,9 @@ function Nav() {
             }}>
             <img
             className='nav__logo' 
-            src="https://i.redd.it/more-official-images-magica-exedra-and-logo-v0-eftr2o9rmxvc1.png?width=1337&format=png&auto=webp&s=44891311b5dead651226d9ad1f8ad7d2c3e5b5f3">        
+            src="https://i.redd.it/more-official-images-magica-exedra-and-logo-v0-eftr2o9rmxvc1.png?width=1337&format=png&auto=webp&s=44891311b5dead651226d9ad1f8ad7d2c3e5b5f3"
+            alt="Navigation Bar Logo"
+            >        
             </img>
         </div>
     </div>

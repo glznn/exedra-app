@@ -4,7 +4,7 @@ import './HomeScreen.css'
 function HomeScreen() {
   return (
     <div className="homescreen">
-        <img className="home__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg">
+        <img className="home__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg" alt="Homescreen Banner">
         </img>
         <div className="home__message">
 
@@ -26,7 +26,9 @@ function HomeScreen() {
         <div className="home__twitter">
         <a class="twitter-timeline"  
           data-chrome="noscrollbar" data-width="300" data-height="900" data-theme="dark" 
-          href="https://twitter.com/madoka_exedraEN?ref_src=twsrc%5Etfw"></a> 
+          href="https://twitter.com/madoka_exedraEN?ref_src=twsrc%5Etfw"
+          aria-label="Follow Madoka Exedra on Twitter"
+          ></a> 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
