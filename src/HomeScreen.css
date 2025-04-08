@@ -46,3 +46,19 @@
     position:static;
     padding-left:70vw;
 }
+
+/*
+    Media Queries 
+*/
+
+@media (max-width: 500px){
+    .home__banner {
+        width:150vw;
+        padding-left: 0;
+    }
+
+    .home__message{
+        left:10%;
+        font-size: 1rem;
+    }
+}

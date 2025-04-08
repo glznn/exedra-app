@@ -47,6 +47,7 @@
     border-bottom: 1px solid rgb(61, 56, 56);
 }
 
+
 .sidebar__row #icon{
     flex: 30%;
     display:grid;
@@ -58,4 +59,27 @@
     flex:70%;
     font-size: 1.35em;
     font-weight: 400;
+}
+
+.sidebar__kofiMob {
+    display:none;
+}
+
+@media (max-width:500px){
+
+    .sidebar {
+        min-width: 50px;
+    }
+
+    .sidebar__row #title{
+        display: none;
+    }
+
+    .sidebar__kofiLong {
+        display:none;
+    }
+
+    .sidebar__kofiMob {
+        display:inline;
+    }
 }

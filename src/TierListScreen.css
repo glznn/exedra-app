@@ -1,4 +1,6 @@
 .TierListScreen {
+    padding-left:min(9%, 210px);
+
 }
 
 .tierlist__banner {

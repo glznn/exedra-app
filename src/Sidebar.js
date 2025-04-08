@@ -26,18 +26,31 @@ function Sidebar() {
                 })}
             </ul>
             <a href="https://ko-fi.com/L4L21CS3TQ" target="_blank" rel="noopener noreferrer">
-      <img
-        src="https://storage.ko-fi.com/cdn/kofi6.png?v=6"
-        alt="Buy Me a Coffee at ko-fi.com"
-        style={{
-          border: '0px',
-          height: '36px',
-          position: 'fixed',
-          left: '10px',
-          bottom:'20px'
-        }}
-      />
-    </a>
+            <img
+                className="sidebar__kofiLong"
+                src="https://storage.ko-fi.com/cdn/kofi6.png?v=6"
+                alt="Buy Me a Coffee at ko-fi.com"
+                style={{
+                border: '0px',
+                height: '36px',
+                position: 'fixed',
+                left: '10px',
+                bottom:'20px'
+                }}
+            />
+            <img
+                className="sidebar__kofiMob"
+                src="/kofi_symbol.png"
+                alt="Buy Me a Coffee at ko-fi.com"
+                style={{
+                    border: '0px',
+                    height: '25px',
+                    position: 'fixed',
+                    left: '10px',
+                    bottom:'20px'
+                    }}
+            />
+            </a>
         </div>
     );
 }

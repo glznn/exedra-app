@@ -1,4 +1,5 @@
 .SimulatorScreen {
+    padding-left:min(9%, 210px);
 }
 
 .sim__banner {
