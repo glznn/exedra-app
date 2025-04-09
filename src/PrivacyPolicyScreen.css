@@ -1,0 +1,13 @@
+.PrivacyPolicyScreen {
+    padding-top: 5%;
+    padding-left:max(15%, 200px);
+    color:white;
+    text-align:left;
+}
+
+@media (max-width: 500px) {
+    .PrivacyPolicyScreen {
+        padding-top: 20%;
+        padding-left: 15%;
+    }
+  }

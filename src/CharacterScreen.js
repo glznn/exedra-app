@@ -3,7 +3,7 @@ import { CharacterData_five } from './backend/CharacterData_five'
 import { CharacterData_four } from './backend/CharacterData_four'
 import { CharacterData_three } from './backend/CharacterData_three'
 import { ElementData, RoleData, RarityData } from './backend/FilterBarData'
-import { useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './CharacterScreen.css'
 
 function CharacterScreen() {

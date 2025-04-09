@@ -1,0 +1,14 @@
+.ContactScreen {
+    padding-top: 10%;
+    padding-left:max(15%, 200px);
+    color:white;
+    text-align:left;
+    font-size: 2vh;
+}
+
+@media (max-width: 500px) {
+    .ContactScreen {
+        padding-top: 20%;
+        padding-left: 15%;
+    }
+  }

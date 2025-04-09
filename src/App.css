@@ -45,12 +45,24 @@ html,body, #root {
 }
 
 .app__footer {
-  text-align: center;
-  padding-bottom:10px;
+  opacity: 0.75;
+  justify-content: center;
+  align-items: center;
   color:white;
-  padding-left:10%;
-  font-size: 1vh;
-  opacity:0.5;
+  font-size: 1.75vh;
+  list-style-type: none;
+  display: flex;
+}
+
+.app__footer #pp {
+  height: 50px;
+  width: 170px;
+  cursor: pointer;
+}
+
+.app__footer #cu {
+  height: 50px;
+  width: 150px;
   cursor: pointer;
 }
 

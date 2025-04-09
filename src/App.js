@@ -1,8 +1,8 @@
 import './App.css';
 import LandingPage from './LandingPage';
 
-
 function App() {
+
   return (
     <div className="App">
       <LandingPage />
@@ -29,9 +29,17 @@ function App() {
         <br></br>
         <br></br>
       </h1>
-        <div className="app__footer">
-          <h1>Contact Us</h1>
-        </div>
+        <ul className="app__footer">
+          <li id="pp" onClick={()=> {
+            window.location.pathname = "/privacypolicy"
+            }}>
+              Privacy Policy
+          </li>
+          <li id="cu" onClick={()=> {
+            window.location.pathname = "/contactus"
+            }}>Contact Us</li>
+        </ul>
+        <br></br>
       </div>
     </div>
   );

@@ -57,8 +57,21 @@
         padding-left: 0;
     }
 
+    .home__content {
+        left: 20%;
+    }
+
+    .home__video {
+        width:75vw;
+        height:25vh;
+    }
+
     .home__message{
         left:10%;
         font-size: 1rem;
+    }
+
+    .home__twitter {
+        display:none;
     }
 }
