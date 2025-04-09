@@ -1,27 +1,26 @@
 .SimulatorScreen {
-    padding-left:min(9%, 210px);
 }
 
 .sim__banner {
     position:relative;
-    padding-left:4%;
-    width:50%;
+    width:100%;
 }
 
 .sim__banner #img {
-    width: 95vw;
+    width: 99vw;
     height: 100vh;
     object-fit:cover;
     opacity:0.1;
 }
 
 .sim__message {
+    padding-left:max(10%, 175px);
     color:white;
     z-index: 4;
     position:absolute;
     font-size:5vw;
     top:25%;
-    width:100%;
+    width:75%;
     height:100%;
     align-items: center;
     justify-content: center;
