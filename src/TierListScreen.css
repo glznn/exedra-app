@@ -25,3 +25,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 500px) {
+    .tierlist__message {
+        padding-left: 20%;
+    }
+}

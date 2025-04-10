@@ -168,3 +168,35 @@
 .char__image:hover {
     transform:scale(1.25);
 }
+
+@media (max-width: 500px) {
+    .char__banner {
+        width:150vw;
+        padding-left: 0;
+    }
+
+    .char__bannerMessage {
+        left:30%;
+        font-size: 1.25rem;
+    }
+
+    .char__filterbar {
+        padding-left:15%;
+        left:5%;
+        flex-direction: column;
+    }
+
+    .char__elemPng {
+        height: auto;
+        width: max(7.75vw, 20px);
+    }
+
+    .char__roleImg {
+        height: auto;
+        width: max(8vw, 20px);
+    }
+
+    .char__rarityRow {
+        font-size:7vw;
+    }
+}
