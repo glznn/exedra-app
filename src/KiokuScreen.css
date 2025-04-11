@@ -269,3 +269,61 @@
     background-clip: text;
     z-index: 2;
 }
+
+@media (max-width: 500px) {
+    .KiokuScreen {
+        padding-left:0%;
+    }
+
+    .kioku__header {
+    }
+
+    .kioku__banner {
+        padding-left: 10%;
+    }
+
+    .kioku__png {
+        width: 70vw;
+    }
+
+    .kioku__5stars {
+        top:max(175px, 18%);
+        left: 90%;
+        margin-top: 0;
+    }
+
+    .kioku__star {
+        padding-left: 0;
+        min-width: 90px;
+    }
+
+    .kioku__elem {
+        padding-left: 0%;
+        margin-left: 50vw;
+        margin-right:0%;
+    }
+
+    .kioku__stats {
+        top: 12vh;
+        padding-left: 30px;
+        position:relative;
+        left: 5.5%;
+        flex-direction: row;
+        font-size: 10px;
+        width: 50vw;
+    }
+
+    .kioku__hp {
+        border-bottom: 0px;
+    }
+    
+    .kioku__atk {
+        border-bottom: 0px;
+    
+    }
+    
+    .kioku__def {
+        border-bottom: 0px;
+    
+    }
+}

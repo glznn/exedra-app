@@ -1,5 +1,116 @@
 export const CharacterData_five = [
   {
+    name: "Momoko Tagame",
+    rarity: "5",
+    type: "Flame",
+    role: "Attacker",
+    image: "/exedra-5s-png/momoko_tagame_5S.png",
+    stats: {
+        hp: 6966,
+        atk: 3146,
+        def: 2325,
+        spd: 86
+    },
+    spatk: {
+        name: "The Universe's Edge",
+        desc: "Deals 420% flame DMG to a single enemy and 315% flame DMG to enemies in proximity. If an enemy in break is attacked, deals 30% flame DMG to target."
+    },
+    basicatk: "Deals 100% flame DMG to a single enemy.",
+    skill: {
+        name: "Blazing Edge",
+        desc: "Deals 225% flame DMG to a single enemy and 170% flame DMG to enemies in proximity. Increases own ATK by 15% (2 turns)."
+    },
+    ability: {
+        name: "Assault Blast",
+        desc: "Increases special attack DMG dealt by 60%, and on DMG dealt to an enemy, increases ATK by 5% (Max 3 stacks)."
+    },
+    suppability: {
+        name: "Assault Blast",
+        desc: "Equipped to Attacker: Increases special attack DMG dealt by 12% and ATK by 15%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases MP recovery rate by 10% and special attack DMG dealt by 30%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Rena Minami",
+    rarity: "5",
+    type: "Aqua",
+    role: "Breaker",
+    image: "/exedra-5s-png/rena_minami_5S.png",
+    stats: {
+        hp: 8051,
+        atk: 2435,
+        def: 2677,
+        spd: 108
+    },
+    spatk: {
+        name: "Infinite Poseidon",
+        desc: "On special attack, increases own break gauge depletion. Deals 360% aqua DMG to a single enemy. If an enemy in break is attacked, delays target's action order by 20%."
+    },
+    basicatk: "Deals 100% aqua DMG to a single enemy.",
+    skill: {
+        name: "Aphrodite Bubble",
+        desc: "Deals 195% aqua DMG to a single enemy. Advances own action order by 25%."
+    },
+    ability: {
+        name: "Breakage Technique",
+        desc: "Increases break effect by 180%, grants 50 MP at battle start, and on enemy break, grant 5 MP."
+    },
+    suppability: {
+        name: "Accele",
+        desc: "Equipped to Aqua: Grants 15 MP at battle start, and on enemy break, grants 2 MP."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases break gauge depletion, and on enemy break, increases SPD by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases break effect by 100%, and after special attack activation, increases break gauge depletion (2 turns).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On enemy break, advances all allies' action order by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Kaede Akino",
+    rarity: "5",
+    type: "Forest",
+    role: "Healer",
+    image: "/exedra-5s-png/kaede_akino_5S.png",
+    stats: {
+        hp: 9551,
+        atk: 1986,
+        def: 2623,
+        spd: 107
+    },
+    spatk: {
+        name: "Judgement Earth",
+        desc: "Deals 280% forest DMG to all enemies. Restores all allies' HP by 30% of user's HP +1,200, and increases MP by 25% (MP recovery effect not granted to user)."
+    },
+    basicatk: "Deals 100% forest DMG to a single enemy.",
+    skill: {
+        name: "Earth Light",
+        desc: "Restores HP equal to 18% of user's HP +280 to a single ally and allies in proximity of the target, and removes all ailments. Also increases MP by 12% (MP recovery effect not granted to user)."
+    },
+    ability: {
+        name: "Quickness Benefit",
+        desc: "Increases HP recovery amount for self and allies under 40% HP by 30%. On taking DMG equal to 20% or higher of own HP, advances action order by 20%."
+    },
+    suppability: {
+        name: "Quickness Benefit",
+        desc: "Equipped to Healer: Increases HP recovery amount by 12%, and on taking DMG equal to 20% or higher of own HP, advances action order by 5%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases MP recovery rate by 30%.",
+        2: "Increases HP/ATK/DEF by 2%. Increases max HP by 10%, and on battle skill use, increases special attack DMG dealt by a single ally and allies in proximity by 20% (2 turn).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases max HP by 10%, and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
     name: "Kyoko Sakura",
     rarity: "5",
     type: "Flame",
@@ -300,7 +411,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Void",
         role: "Debuffer",
-        image: "/exedra-5s-png/ren_isuzu_5S.png",
+        image: "https://images.puella-magi.net/c/c1/Exedra_Ren_Art.jpg",
         stats: {
           hp: 7756,
           atk: 2611,
