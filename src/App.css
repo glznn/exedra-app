@@ -67,9 +67,9 @@ html,body, #root {
 }
 
 @media (max-width: 500px) {
-  /* .App {
+ .App {
     overflow: hidden;
-  } */
+  }
   .app__gradient {
     width: 120vw;
   }

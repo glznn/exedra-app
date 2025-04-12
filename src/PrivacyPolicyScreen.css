@@ -5,9 +5,9 @@
     text-align:left;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
     .PrivacyPolicyScreen {
-        padding-top: 20%;
+        padding-top: 10vh;
         padding-left: 12.5%;
     }
   }

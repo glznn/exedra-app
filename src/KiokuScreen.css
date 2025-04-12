@@ -1,6 +1,7 @@
 .KiokuScreen {
     padding-left:15%;
     height:200vh;
+    overflow:visible;
 }
 
 .kioku__banner {
@@ -70,7 +71,7 @@
     display:flex;
     flex-direction: row;
     position: relative;
-    width:1400px;
+    width:70vw;
 }
 
 .kioku__png {
@@ -172,55 +173,6 @@
     border-bottom: solid gray 1px;
 }
 
-.kioku__spAtkName {
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(148, 0, 153));
-    color:rgba(255, 0, 0, 0);
-    background-clip: text;
-    z-index: 2;
-}
-
-.kioku__attacks {
-    list-style-type: none;
-    display:flex;
-    margin-left: -10%;
-}
-
-.kioku__skill {
-    margin-right:10px;
-    padding:30px;
-    top:15vh;
-    font-size:1.8vh;
-    color:white;
-    position:relative;
-    background:rgba(0, 0, 0, 0.596);
-    border-radius: 10px;
-    border:white solid 2px;
-    width:calc(max(38vw, 435px)/2);
-    height: calc(25vh - 3vw);
-    left:calc(125px + 1.5%);
-}
-
-.kioku__abilities {
-    list-style-type: none;
-    display:flex;
-    margin-left: -10%;
-}
-
-.kioku__ability {
-    margin-right:10px;
-    padding:30px;
-    top:15vh;
-    font-size:1.8vh;
-    color:white;
-    position:relative;
-    background:rgba(0, 0, 0, 0.596);
-    border-radius: 10px;
-    border:white solid 2px;
-    width:calc(max(38vw, 435px)/2);
-    height: calc(25vh - 3vw);
-    left:calc(125px + 1.5%);
-}
-
 /*
     To not show the Special Attack title / description for 3 star characters.
 */
@@ -273,13 +225,11 @@
 @media (max-width: 500px) {
     .KiokuScreen {
         padding-left:0%;
-    }
-
-    .kioku__header {
+        height: 100%;
     }
 
     .kioku__banner {
-        padding-left: 10%;
+        padding-left: 5vw;
     }
 
     .kioku__png {
@@ -287,6 +237,18 @@
     }
 
     .kioku__5stars {
+        top:max(175px, 18%);
+        left: 90%;
+        margin-top: 0;
+    }
+
+    .kioku__4stars {
+        top:max(175px, 18%);
+        left: 90%;
+        margin-top: 0;
+    }
+
+    .kioku__3stars {
         top:max(175px, 18%);
         left: 90%;
         margin-top: 0;
@@ -325,5 +287,10 @@
     .kioku__def {
         border-bottom: 0px;
     
+    }
+
+    .kioku__kit {
+        width: 50vw;
+        font-size: 3.75vw;
     }
 }
