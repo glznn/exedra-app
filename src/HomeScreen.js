@@ -8,7 +8,7 @@ function HomeScreen() {
         </img>
         <div className="home__message">
 
-            <h1>Welcome to <span className="home__gg">exedra.gg</span></h1>
+            <h1>Welcome to <span className="home__gg">exedra.app</span></h1>
 
             <h4>All about the game Madoka Magica Magia Exedra.
             <br></br>
