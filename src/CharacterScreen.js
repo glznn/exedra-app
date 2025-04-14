@@ -90,7 +90,7 @@ function CharacterScreen() {
               onClick={() => handleRoleFilter(val.role)}
               >
                 <div id="roleIcon">
-                  <img className="char__roleImg" src={val.image} title={val.type} alt="Role Icon"></img>
+                  <img className="char__roleImg" src={val.image} title={val.role} alt="Role Icon"></img>
                 </div>
               </li>
             )
@@ -123,7 +123,7 @@ function CharacterScreen() {
             <img className="char__type" src={"/exedra-icons/elements/" + character.type.toLowerCase() + "-elem.png"} alt="Element Icon"></img>
             <img className="char__role" src={"/exedra-icons/role/" + character.role.toLowerCase() + ".png"} alt="Role Icon"></img>
             <div className="charimg__container">
-            <img src={character.image} className="char__image"
+            <img src={character.image} title={character.name} className="char__image"
             onClick={() => {
               navigate(`/characters/${character.spatk.name}`);
             }}

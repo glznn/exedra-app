@@ -8,7 +8,7 @@ function ContactScreen() {
         <h1>
         Contact Us
         </h1>
-        <h3>If you have any questions or concerns feel free to contact us:</h3>
+        <h3>If you have any questions, concerns, or suggestions(!!) feel free to contact us:</h3>
 
         <h4>By email: info@exedra.app</h4>
     </div>
