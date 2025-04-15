@@ -287,14 +287,14 @@
         font-size: 2.5vw;
     }
     .kioku__stats {
-        top: 12vh;
+        top: 11vh;
         padding-left: 30px;
         position:relative;
         left: 5.5%;
         flex-direction: row;
         font-size: 10px;
         width: 50vw;
-        min-height: 10vh;
+        min-height: 75px;
     }
 
     .kioku__hp {
