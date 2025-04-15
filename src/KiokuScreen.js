@@ -49,14 +49,17 @@ function KiokuScreen() {
         <div className={`kioku__${allCharacterData[charIndex].rarity}stars`}>
             <img className="kioku__star" src={`/exedra-icons/rarity/${allCharacterData[charIndex].rarity}star.png`} alt="Rarity Stars"></img>
         </div>
-
         <ul className="kioku__stats">
             <li className="kioku__hp"> <h1> HP {allCharacterData[charIndex].stats.hp} </h1></li>
             <li className="kioku__atk"> <h1> ATK {allCharacterData[charIndex].stats.atk} </h1> </li>
             <li className="kioku__def"> <h1> DEF {allCharacterData[charIndex].stats.def} </h1> </li>
             <li className="kioku__spd"> <h1> SPD <br></br>{allCharacterData[charIndex].stats.spd} </h1></li>
         </ul>
-
+        <div className="kioku__disc">
+            <h3>         
+                ** All values shown at max level and ascension.
+            </h3>
+        </div>
 
         <div id={`rarity${allCharacterData[charIndex].rarity}`}>
         <p className="kioku__kit">

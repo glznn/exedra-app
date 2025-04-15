@@ -81,6 +81,21 @@
     object-fit: cover;
 }
 
+.kioku__disc {
+    left:calc(125px + 1.5%);
+    margin-left: -8%;
+    overflow:hidden;
+    color:rgb(161, 161, 161);
+    position:relative;
+    top: 5%;
+    margin-bottom: 0px;
+    width: 80vw;
+    font-size: max(18px, 1.25vw);
+    text-align:left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom:-50px;
+}
+
 .kioku__5stars {
     top:max(150px, calc(20% - 1vw));
     position:absolute;
@@ -126,10 +141,12 @@
     flex-direction: column;
     position:absolute;
     width:4.5vw;
+    min-width: 45px;
     height:auto;
+    min-height: 200px;
     left:max(760px, 65vw);
-    top:max(180px, calc(3vw + 16vh));
-    font-size: 0.6vw;
+    top:max(180px, calc(3vw + 18vh));
+    font-size: max(0.6vw, 8px);
 }
 
 .kioku__hp {
@@ -265,6 +282,10 @@
         margin-right:0%;
     }
 
+    .kioku__disc {
+        top:10vh;
+        font-size: 2.5vw;
+    }
     .kioku__stats {
         top: 12vh;
         padding-left: 30px;
