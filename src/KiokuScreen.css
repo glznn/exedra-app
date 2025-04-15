@@ -294,6 +294,7 @@
         flex-direction: row;
         font-size: 10px;
         width: 50vw;
+        min-height: 10vh;
     }
 
     .kioku__hp {
