@@ -1,5 +1,42 @@
 export const CharacterData_five = [
   {
+    name: "Sayaka Miki",
+    rarity: "5",
+    type: "Aqua",
+    role: "Defender",
+    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A5.jpg",
+    stats: {
+        hp: 8006,
+        atk: 2024,
+        def: 3102,
+        spd: 84
+    },
+    spatk: {
+        name: "Baldamente Fortissimo",
+        desc: "Deals 300% of DEF as aqua DMG to a single enemy. If at 5 Magic or higher, increases all allies' special attack DMG dealt by 20% (2 Turns.) For each Magic gained above 5, increases special attack DMG dealt by 2% (Max 10%)."
+      },
+    basicatk: "Deals 75% of DEF as aqua DMG to a single enemy.",
+    skill: {
+        name: "Allegro Feroce",
+        desc: "Deals 175% of DEF as aqua DMG to a single enemy. Applies barrier (70% of user's DEF +527) to all allies (2 turns)."
+    },
+    ability: {
+        name: "Guard Heal",
+        desc: "At battle start, increases SPD by 50 (1 turn). Decreases all allies' DMG taken by 20% (2 turns). 0 Magic at battle start. On DMG dealt, grants 1 Magic. For each Magic, increases all allies' DEF by 2 (Max 20%). Max 10 Magic. Performs counterattack against enemies that attack self. Counterattack: Deals 50% of DEF as aqua DMG, and decreases all elemental RES by 5% (1 turn / Stacks 3 times). Also restores HP by 5% of user's HP +200."
+    },
+    suppability: {
+        name: "Guard Defense",
+        desc: "Decreases DMG taken by 7.5%. On DMG dealt to an enemy, increases DEF by 3.5% (Max 5 stacks)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On taking at least 1 DMG from an enemy attack, grants 5 MP. At battle start, applies shield to self (20% / 2 times).",
+        2: "Increases HP/ATK/DEF by 2%. Decreases all allies' DMG taken by 20%. On counterattack activation, grants 1 Magic.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On taking at least 1 DMG from an enemy attack, grants 5 MP. Increases all allies' DEF by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
     name: "Momoko Tagame",
     rarity: "5",
     type: "Flame",
