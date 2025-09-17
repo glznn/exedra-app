@@ -60,12 +60,14 @@ function CharacterScreen() {
 
   return (
     <div className="CharacterScreen">
-      <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg" alt="Homescreen Banner">
-        </img>
+      <div className="char__top">
+        <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg" alt="Homescreen Banner">
+          </img>
 
-      <div className="char__bannerMessage">
-      <h1><span className="home__gg">Characters</span></h1>
-      <h4>View of all available Kioku</h4>
+        <div className="char__bannerMessage">
+        <h1><span className="app__pink">Characters</span></h1>
+        <h4>View of all available Kioku</h4>
+        </div>
       </div>
       <div className="char__filterbar">
         <ul className="char__elemFilter">
@@ -122,13 +124,13 @@ function CharacterScreen() {
           <div className="char__card" key={index}>
             <img className="char__type" src={"/exedra-icons/elements/" + character.type.toLowerCase() + "-elem.png"} alt="Element Icon"></img>
             <img className="char__role" src={"/exedra-icons/role/" + character.role.toLowerCase() + ".png"} alt="Role Icon"></img>
-            <div className="charimg__container">
-            <img src={character.image} title={character.name} className="char__image"
-            onClick={() => {
-              navigate(`/characters/${character.spatk.name}`);
-            }}
-            alt="Kioku"
-             />
+            <div className="char__imgContainer">
+              <img src={character.image} title={character.name} className="char__image"
+              onClick={() => {
+                navigate(`/characters/${character.spatk.name}`);
+              }}
+              alt="Kioku"
+              />
             </div>
           </div>
         ))}

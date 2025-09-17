@@ -12,7 +12,10 @@ function TierListScreen() {
             ></img>
         </div>
         <div className="tierlist__message"> 
-        <h1> <span className="home__gg">Tier List</span> <br></br>coming soon! </h1>
+        <h1> 
+          <span className="app__pink">Tier List</span> 
+          <br></br>
+          coming soon! </h1>
         </div>
     </div>
   )

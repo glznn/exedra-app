@@ -1,7 +1,21 @@
-.homescreen{
+.Homescreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-top: 100px;
+    margin-left: calc(1rem + 10vw);
+}
+
+.home__top {
+    height:max(40vh, 150px);
 }
 
 .home__banner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
     width:95%;
     height:max(40vh, 150px);
     object-fit: cover;
@@ -9,27 +23,20 @@
     padding-left:min(5%, 200px);
 }
 
-.home__content {
-    display:flex;
-    padding-top:15px;
-    position:absolute;
-    left:195px;
-}
-
-.home__message{
+.home__message {
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 10%;
     color: rgb(255, 255, 255);
-    padding-left:min(9%, 210px);
-    left:25%;
-    position:absolute;
+    position: relative;
     overflow:hidden;
-    top: max(10%, 70px);
     font-size: min(3vw, 2.5vh);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Exedra text styling */
-.home__gg {
-    background-image: linear-gradient(rgb(255, 150, 255),rgb(203, 166, 207));
+.app__pink {
+    background-image: linear-gradient(#ff96ff,rgb(203, 166, 207));
     color:rgba(255, 0, 0, 0);
     background-clip: text;
     text-shadow: 0px 0px 0 #ffffff00, 1px -1px 0 #00000000, -1px 1px 0 #00000000, 1px 1px 0 #00000000;
@@ -37,57 +44,26 @@
 
 .home__video {
     width:50vw;
-    height:28.15vw
-}
-
-
-.home__twitter {
-    padding-top:15px;
-    position:static;
-    padding-left:70vw;
+    height:28.15vw;
 }
 
 /*
     Media Queries 
 */
 
-@media (max-width: 1100px) and (min-width: 501px){
+@media (max-width: 1100px){
     .home__content {
         left: 20%;
-    }
-
-    .home__message{
-        margin-left: -15vw;
-        justify-content: center;
-        font-size: 2.5vw;
-    }
-
-    .home__twitter {
-        display:none;
     }
 }
 
-@media (max-width: 500px){
-    .home__banner {
-        width:150vw;
-        padding-left: 0;
+@media (max-width: 400px) {
+    .home__message {
+        padding-left: 10px;
     }
 
-    .home__content {
-        left: 20%;
-    }
-
-    .home__video {
-        width:75vw;
-        height:25vh;
-    }
-
-    .home__message{
-        left:5%;
-        font-size: 1rem;
-    }
-
-    .home__twitter {
-        display:none;
+    .home__video { 
+        min-width: 220px;
+        min-height: 123.86px;
     }
 }

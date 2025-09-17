@@ -16,18 +16,6 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
       </h1>
         <ul className="app__footer">
           <li id="pp" onClick={()=> {

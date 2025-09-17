@@ -1,48 +1,45 @@
 .KiokuScreen {
-    padding-left:15%;
-    height:200vh;
-    overflow:visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: calc(0.75rem + 14vw);
 }
 
 .kioku__banner {
     position:fixed;
-    width:100%;
+    width:100vw;
 }
 
 .kioku__banner .image {
-    margin-left:-10%;
     display: flex;
-    width: 100%;
     height: 100%;
     opacity: 0.10;
     object-fit: cover;
   }
 
 .kioku__header {
-    left:calc(125px + 1.5%);
-    margin-left: -8%;
-    position:absolute;
-    min-width: 500px;
-    width:max(41.5vw, 500px);
-    max-width:1300px;
-    height:auto;
     display: flex;
     position:relative;
-    top:100px;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    width: 80%;
+    height:auto;
     font-size: calc(8px + 0.90vw);
     color:white;
+    margin-top: 100px;
+    margin-bottom: 20px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom:30px;
 }
 
-.kioku__header #txt { 
-    position:absolute;
+.kioku__headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kioku__elem {
-    margin-top:1%;
-    padding-left:35%;
-    margin-left:auto;
+    margin-top: 20px;
     margin-right:0;
 }
 
@@ -53,10 +50,6 @@
 
 }
 
-.kioku__role {
-    padding-top: 0%;
-}
-
 .kioku__role #png {
     width:5.5vw;
     min-width: 60px;
@@ -64,46 +57,42 @@
     max-width:150px;
 }
 
+.kioku__info {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .kioku__image {
-    left:calc(125px + 1.5%);
-    margin-left: -8%;
-    top:max(10vh, 75px);
-    display:flex;
-    flex-direction: row;
     position: relative;
-    width:70vw;
 }
 
 .kioku__png {
-    position:relative;
     width:max(41.5vw, 500px);
     height: auto;
     object-fit: cover;
 }
 
 .kioku__disc {
-    left:calc(125px + 1.5%);
-    margin-left: -8%;
-    overflow:hidden;
+    position:relative;  
     color:rgb(161, 161, 161);
-    position:relative;
-    top: 5%;
-    margin-bottom: 0px;
-    width: 80vw;
-    font-size: max(18px, 1.25vw);
+    width: fit-content;
+    align-self: flex-start;
+    font-size: max(12px, 1.25vw);
     text-align:left;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-bottom:-50px;
 }
 
-.kioku__5stars {
-    top:max(150px, calc(20% - 1vw));
-    position:absolute;
-    margin-top:calc(5vw - 3vh);
-    left:calc(125px + 16%);
-    margin-left: -8%;
+/* .kioku__star {
+    height:100%;
+    width:150px;
 }
 
+.kioku__5stars { 
+    position:relative;
+    transform: rotate(270deg);
+    margin-top: -175px;
+}
 
 .kioku__4stars {
     top:max(150px, calc(22% - 1vw));
@@ -119,17 +108,13 @@
     margin-top:calc(10vw - 10.5vh);
     left:calc(125px + 16%);
     margin-left: -8%;
-}
-
-.kioku__star {
-    min-width: 130px;
-    padding-left:max(38vw, 445px);
-    width:10vw;
-    height:100%;
-    
-}
+} */
 
 .kioku__stats {
+    display:inline-flex;
+    flex-direction: column; 
+    position: relative;
+    align-self: center;
     padding-top:5px;
     padding-right:30px;
     background:rgba(95, 94, 93, 0.726);
@@ -137,15 +122,10 @@
     color:rgb(255, 255, 255);
     border: solid, rgba(255, 255, 255, 0.596), 5px;
     list-style-type: none;
-    display:inline-flex;
-    flex-direction: column;
-    position:absolute;
     width:4.5vw;
     min-width: 45px;
     height:auto;
     min-height: 200px;
-    left:max(760px, 65vw);
-    top:max(180px, calc(3vw + 18vh));
     font-size: max(0.6vw, 8px);
 }
 
@@ -155,46 +135,30 @@
 
 .kioku__atk {
     border-bottom: 2px black solid;
-
 }
 
 .kioku__def {
     border-bottom: 2px black solid;
-
-}
-
-.kioku__spd {
-
 }
 
 .kioku__kit {
+    position: relative;
     padding:30px;
-    top:15vh;
-    left:calc(125px + 1.5%);
-    margin-left: -8%;
-    font-size:2vh;
+    font-size: max(2vh, 18px);
     color:white;
-    position:relative;
     background:rgba(0, 0, 0, 0.596);
     border-radius: 10px;
     border:white solid 2px;
-    width:max(52vw, 435px);
+    width: 80%;
     height: auto;
 }
 
 .kioku__kitTitle {
     margin-top:-10px;
     padding-bottom:10px;
-    font-size: 2.3vh;
+    font-size: max(2.3vh, 20px);
     margin-bottom: 10px;
     border-bottom: solid gray 1px;
-}
-
-/*
-    To not show the Special Attack title / description for 3 star characters.
-*/
-#rarity3 {
-    display:none;
 }
 
 #highlightAqua {
@@ -239,80 +203,64 @@
     z-index: 2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
     .KiokuScreen {
-        padding-left:0%;
-        height: 100%;
+        outline: 2px solid blue;
     }
 
-    .kioku__banner {
-        padding-left: 5vw;
+    .kioku__info {
+        flex-direction: column;
     }
 
     .kioku__png {
-        width: 70vw;
+        width: max(50vw, 350px);
     }
 
-    .kioku__5stars {
-        top:max(175px, 18%);
-        left: 90%;
-        margin-top: 0;
-    }
-
-    .kioku__4stars {
-        top:max(175px, 18%);
-        left: 90%;
-        margin-top: 0;
-    }
-
-    .kioku__3stars {
-        top:max(175px, 18%);
-        left: 90%;
-        margin-top: 0;
-    }
-
-    .kioku__star {
-        padding-left: 0;
-        min-width: 90px;
-    }
-
-    .kioku__elem {
-        padding-left: 0%;
-        margin-left: 50vw;
-        margin-right:0%;
-    }
-
-    .kioku__disc {
-        top:10vh;
-        font-size: 2.5vw;
-    }
     .kioku__stats {
-        top: 11vh;
-        padding-left: 30px;
         position:relative;
-        left: 5.5%;
         flex-direction: row;
         font-size: 10px;
         width: 50vw;
         min-height: 75px;
     }
 
+    .kioku__disc {
+        align-self: center;
+    }
+
     .kioku__hp {
-        border-bottom: 0px;
+        margin: auto auto;
     }
     
     .kioku__atk {
-        border-bottom: 0px;
-    
+        margin: auto auto;
     }
     
     .kioku__def {
-        border-bottom: 0px;
-    
+        margin: auto auto;
+    }
+
+    .kioku__spd {
+        margin: auto auto;
+        border-bottom: 2px black solid;
+    }
+}
+
+@media (max-width: 400px) {
+    .kioku__header {
+        width: 100%;
+    }
+
+    .kioku__stats {
+        font-size: 8px;
+    }
+
+    .kioku__kitTitle {
+        font-size: 20px;
     }
 
     .kioku__kit {
-        width: 50vw;
-        font-size: 3.75vw;
+        width: 60%;
+        font-size: 15px;
     }
 }

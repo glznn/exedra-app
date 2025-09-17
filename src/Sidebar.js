@@ -33,7 +33,7 @@ function Sidebar() {
                 style={{
                 border: '0px',
                 height: '36px',
-                position: 'fixed',
+                position: 'sticky',
                 left: '10px',
                 bottom:'20px'
                 }}
@@ -45,7 +45,7 @@ function Sidebar() {
                 style={{
                     border: '0px',
                     height: '25px',
-                    position: 'fixed',
+                    position: 'sticky',
                     left: '10px',
                     bottom:'20px'
                     }}

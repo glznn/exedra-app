@@ -300,7 +300,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Light",
         role: "Attacker",
-        image: "https://images.puella-magi.net/6/6d/Exedra_Oriko_Art.jpg",
+        image: "https://images.puella-magi.net/9/98/Exedra_Oriko_Art.png",
         stats: {
             hp: 6957,
             atk: 3149,

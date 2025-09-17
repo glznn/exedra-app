@@ -36,38 +36,41 @@ function KiokuScreen() {
         </div>
         <div className="kioku__header">
         <h1 id="txt">{allCharacterData[charIndex].name}</h1>
-            <div className="kioku__elem">
-                <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type.toLowerCase()}-elem.png`} alt="Element Icon"></img>
-            </div>
-            <div className="kioku__role">
-                <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role.toLowerCase()}.png`} alt="Role Icon"></img>
+            <div className="kioku__headerRight">
+                <div className="kioku__elem">
+                    <img id="png" src={`/exedra-icons/elements/${allCharacterData[charIndex].type.toLowerCase()}-elem.png`} alt="Element Icon"></img>
+                </div>
+                <div className="kioku__role">
+                    <img id="png" src={`/exedra-icons/role/${allCharacterData[charIndex].role.toLowerCase()}.png`} alt="Role Icon"></img>
+                </div>
             </div>
         </div>
-        <div className="kioku__image">
-        <img className="kioku__png" src={allCharacterData[charIndex].image} alt="Kioku"></img>
-        </div>
-        <div className={`kioku__${allCharacterData[charIndex].rarity}stars`}>
+        {/* <div className={`kioku__${allCharacterData[charIndex].rarity}stars`}>
             <img className="kioku__star" src={`/exedra-icons/rarity/${allCharacterData[charIndex].rarity}star.png`} alt="Rarity Stars"></img>
+        </div> */}
+        <div className="kioku__info">
+            <div className="kioku__image">
+            <img className="kioku__png" src={allCharacterData[charIndex].image} alt="Kioku"></img>
+            </div>
+            <ul className="kioku__stats">
+                <li className="kioku__hp"> <h1> HP {allCharacterData[charIndex].stats.hp} </h1></li>
+                <li className="kioku__atk"> <h1> ATK {allCharacterData[charIndex].stats.atk} </h1> </li>
+                <li className="kioku__def"> <h1> DEF {allCharacterData[charIndex].stats.def} </h1> </li>
+                <li className="kioku__spd"> <h1> &nbsp; SPD &nbsp; {allCharacterData[charIndex].stats.spd} </h1> </li>
+            </ul>
         </div>
-        <ul className="kioku__stats">
-            <li className="kioku__hp"> <h1> HP {allCharacterData[charIndex].stats.hp} </h1></li>
-            <li className="kioku__atk"> <h1> ATK {allCharacterData[charIndex].stats.atk} </h1> </li>
-            <li className="kioku__def"> <h1> DEF {allCharacterData[charIndex].stats.def} </h1> </li>
-            <li className="kioku__spd"> <h1> SPD <br></br>{allCharacterData[charIndex].stats.spd} </h1></li>
-        </ul>
         <div className="kioku__disc">
             <h3>         
-                ** All values shown at max level and ascension.
+                &nbsp;&nbsp;&nbsp;&nbsp;** All values shown at max level and ascension.
             </h3>
         </div>
-
-        <div id={`rarity${allCharacterData[charIndex].rarity}`}>
+        {allCharacterData[charIndex].rarity !== '3' && (
         <p className="kioku__kit">
+
             <h2 className="kioku__kitTitle">Special Attack:</h2>
             <span id={`highlight${allCharacterData[charIndex].type}`}>{allCharacterData[charIndex].spatk.name}</span><br></br>
             <ColorText text={allCharacterData[charIndex].spatk.desc} />
-        </p>
-        </div>
+        </p>)}
         
         <p className="kioku__kit">
             <h2 className="kioku__kitTitle">Basic Attack:</h2>
