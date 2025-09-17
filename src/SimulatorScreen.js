@@ -112,12 +112,11 @@ function SimulatorScreen() {
   }
 
   function getTen() {
-    var list = "";
     var localCount = count;
 
     for (var i = 0; i < 9; i++) {
       localCount++;
-      list += (getKioku(localCount) + " \n");
+      getKioku(localCount)
     }
 
     setCount(count+10);
@@ -130,7 +129,7 @@ function SimulatorScreen() {
     <div className="SimulatorScreen">
         <div className="sim__banner">
         <div className="sim__header">
-          <h1></h1>
+          <h1>Simulator</h1>
         </div>
             <img id="img" 
             src="https://i.redd.it/more-official-images-magica-exedra-and-logo-v0-efjytt0qmxvc1.jpg?width=2800&format=pjpg&auto=webp&s=cafb5ea94241eb5938e3ab11662280fd9611fe10"
@@ -174,6 +173,7 @@ function SimulatorScreen() {
             {summons.map((val, key) => (
                 <div className="sim__card">
                   <img src={val.image} title = {val.name} className={filter ? 'sim__imgFilter' : 'sim__imgNoFilter'} 
+                  alt={val.name}
                   checkMulti={notMulti.toString()}
                   onClick = {() => { 
                     console.log(notMulti.toString())
