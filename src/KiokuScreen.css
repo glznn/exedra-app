@@ -204,10 +204,6 @@
 }
 
 @media (max-width: 850px) {
-    .KiokuScreen {
-        outline: 2px solid blue;
-    }
-
     .kioku__info {
         flex-direction: column;
     }
