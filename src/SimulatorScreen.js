@@ -128,13 +128,14 @@ function SimulatorScreen() {
   return (
     <div className="SimulatorScreen">
         <div className="sim__banner">
-        <div className="sim__header">
-          <h1>Simulator</h1>
-        </div>
             <img id="img" 
             src="https://i.redd.it/more-official-images-magica-exedra-and-logo-v0-efjytt0qmxvc1.jpg?width=2800&format=pjpg&auto=webp&s=cafb5ea94241eb5938e3ab11662280fd9611fe10"
             alt="Kyubey Placeholder"
             ></img>
+        </div>
+        <div className="sim__header">
+          <h1 className="app__pink">Simulator</h1>
+          <h2>Try your luck here!</h2>
         </div>
         <div className="sim__display">
           <div className="sim__buttons">
@@ -189,25 +190,25 @@ function SimulatorScreen() {
             )}
             </div>
         )}
+        </div>
         <div className="sim__footer"> 
-        <div className="sim__stats">
-          <h1 className="sim__total"> Total Pulls: {count} </h1>
-          <ul className="sim__statList">
-            <li>
-              <h1>Total Five Stars: {fiveCount}</h1>
-              <h2>5* Rate: {Math.round(((fiveCount / count) * 100 )) / 100}%</h2>
-            </li>
-            <li>
-              <h1>Total Four Stars: {fourCount}</h1>
-              <h2>4* Rate: {Math.round(((fourCount / count) * 100 )) / 100}%</h2>
-            </li>
-            <li>
-              <h1>Total Three Stars: {threeCount}</h1>
-              <h2>3* Rate: {Math.round(((threeCount / count) * 100 )) / 100}%</h2>
-            </li>
-          </ul>
-        </div>
-        </div>
+          <div className="sim__stats">
+            <ul className="sim__statList">
+              <h1 className="sim__total"> Total Pulls: {count} </h1>
+              <li>
+                <h1>Total Five Stars: {fiveCount}</h1>
+                <h2 className="sim__fiveStar"> 5* Rate: {Math.round(((fiveCount / count) * 100 )) / 100}%</h2>
+              </li>
+              <li>
+                <h1>Total Four Stars: {fourCount}</h1>
+                <h2 className="sim__fourStar"> 4* Rate: {Math.round(((fourCount / count) * 100 )) / 100}%</h2>
+              </li>
+              <li>
+                <h1 >Total Three Stars: {threeCount}</h1>
+                <h2 className="sim__threeStar"> 3* Rate: {Math.round(((threeCount / count) * 100 )) / 100}%</h2>
+              </li>
+            </ul>
+          </div>
         </div>
     </div>
   )

@@ -1,4 +1,4 @@
-.Homescreen{
+.Homescreen {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .home__top {
-    height:max(40vh, 150px);
+    height:max(32vh, 150px);
 }
 
 .home__banner {
@@ -45,6 +45,8 @@
 .home__video {
     width:50vw;
     height:28.15vw;
+    min-width: 350px;
+    min-height: 197px;
 }
 
 /*

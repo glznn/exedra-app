@@ -1,9 +1,18 @@
+
 .SimulatorScreen {
-    overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  place-items: center;
+  width: 80%;
+  margin-left: calc(0.75rem + 14vw);
 }
 
 .sim__banner {
-    width:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+  margin-left: -50px;
 }
 
 .sim__banner #img {
@@ -14,46 +23,40 @@
 }
 
 .sim__header {
-  width: 100%;
-  position:absolute;
-  top:5vh;
-  z-index: 10;
-  color:white;
-  justify-content: center;
-  display: flex;
+  margin-top: 100px;
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  font-size: 50px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.sim__message {
-    padding-left:max(10%, 175px);
-    color:white;
-    z-index: 4;
-    position:absolute;
-    font-size:5vw;
-    top:25%;
-    width:75%;
-    height:100%;
-    align-items: center;
-    justify-content: center;
+.sim__header h2 {
+  margin-top: -80px;
+  color: white;
+  font-size: 40px;
 }
 
 .sim__display {
-    padding-top: 30vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    z-index: 20;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
+
+/*
+*  Has to be absolute 
+*/
 
 .sim__buttons {
-    display:flex;
-    padding-left: 10vw;
-    justify-content: center;
-    top: 85vh;
-    position:absolute;
+  display:flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-/* CSS */
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -67,7 +70,6 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-right: 100px;
 }
 
 .button-85:before {
@@ -119,11 +121,11 @@
 }
 
 .sim__gacha {
-    justify-content: center;
-    align-items:center ;
-    padding-left: 10vw;
-    position:absolute;
-    top: 12.5vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .sim__card {
@@ -131,6 +133,7 @@
     display:inline-block;
     padding: 10px;
     overflow:hidden;
+    cursor: pointer;
 }
 
 .sim__imgFilter {
@@ -161,16 +164,15 @@
 }
 
 .sim__footer {
-  padding-left: 4vw;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
 }
 
-.sim__stats {
+.sim__stats { 
+  margin-top: 50px;
   text-align: center;
   list-style-type:none;
-  margin-top: -30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color:white;
   background:rgba(0, 0, 0, 0.623);
   padding-right: 50px;
@@ -182,30 +184,66 @@
   list-style: none;
 }
 
-.sim__total {
-  margin-left: 30px;
+.sim__stats h1 {
+  font-size: calc(1.5rem + 1vw);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-@media (max-width: 500px) {
+.sim__statList h1 {
+  font-size: calc(0.75rem + 1vw);
+}
+
+.sim__fiveStar  {
+  color: rgb(199, 199, 51);
+}
+
+.sim__fourStar {
+  color: rgb(197, 89, 188);
+}
+
+.sim__threeStar {
+  color: rgb(96, 74, 221);
+}
+
+@media (max-width: 1100px) {
+  .sim__header {
+    font-size: 30px;
+  }
+
+  .sim__header h2 {
+    margin-top: -40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sim__header {
+    font-size: 20px;
+  }
+
+  .sim__header h2 {
+    margin-top: -20px;
+    font-size: 15px;
+  }
 
   .sim__imgFilter {
-    width: 28vw;
+    width: 50vw;
   }
 
   .sim__imgNoFilter {
-    width: 28vw;
+    width: 50vw;
   }
 
   .sim__buttons {
-    top: 73vh;
-    padding-left: 25vw;
+    width: fit-content;
+    align-self: center;
     flex-direction: column;
   }
 
   .button-85 {
     margin-bottom: 25px;
     width: 50vw;
-    margin-right: 60px;
     font-size: 0.75rem;
   }
 }
