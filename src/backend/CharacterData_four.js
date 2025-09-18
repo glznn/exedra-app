@@ -4,7 +4,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Aqua",
         role: "Attacker",
-        image: "/exedra-4s-png/asuka_tatsuki_4S.png",
+        image: "https://exedra.wiki/w/images/4/4b/Ryushin_Spiral_Fury_Kioku_Artwork.png",
         stats: {
           hp: 6249,
           atk: 2729,
@@ -41,7 +41,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Forest",
         role: "Attacker",
-        image: "/exedra-4s-png/nanaka_tokiwa_4S.png",
+        image: "https://exedra.wiki/w/images/d/d9/White_Camellia_Kioku_Artwork.png",
         stats: {
           hp: 6297,
           atk: 2754,
@@ -78,7 +78,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Void",
         role: "Attacker",
-        image: "/exedra-4s-png/masara_kagami_4S.png",
+        image: "https://exedra.wiki/w/images/3/3c/Invisible_Assassin_Kioku_Artwork.png",
         stats: {
           hp: 6266,
           atk: 2764,
@@ -118,7 +118,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Dark",
         role: "Attacker",
-        image: "/exedra-4s-png/kush_irina_4S.png",
+        image: "https://exedra.wiki/w/images/a/af/Seraphic_Trial_Kioku_Artwork.png",
         stats: {
           hp: 6320,
           atk: 2739,
@@ -155,7 +155,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Flame",
         role: "Breaker",
-        image: "/exedra-4s-png/karin_misono_4S.png",
+        image: "https://exedra.wiki/w/images/a/a4/Purple_Will-o%27-Wisp_Kioku_Artwork.png",
         stats: {
           hp: 7171,
           atk: 2137,
@@ -192,7 +192,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Aqua",
         role: "Breaker",
-        image: "/exedra-4s-png/seika_kumi_4S.png",
+        image: "https://exedra.wiki/w/images/c/cf/Diamond_Splash_Kioku_Artwork.png",
         stats: {
           hp: 7197,
           atk: 2131,
@@ -229,7 +229,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Forest",
         role: "Breaker",
-        image: "/exedra-4s-png/mito_aino_4S.png",
+        image: "https://exedra.wiki/w/images/7/7e/Verdant_Shower_Kioku_Artwork.png",
         stats: {
           hp: 7215,
           atk: 2125,
@@ -266,7 +266,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Void",
         role: "Breaker",
-        image: "/exedra-4s-png/ashley_taylor_4S.png",
+        image: "https://exedra.wiki/w/images/f/f5/Glittering_Hurricane_Kioku_Artwork.png",
         stats: {
           hp: 7206,
           atk: 2123,
@@ -303,7 +303,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Light",
         role: "Buffer",
-        image: "/exedra-4s-png/hazuki_yusa_4S.png",
+        image: "https://exedra.wiki/w/images/e/e3/Thunder_Torrent_Kioku_Artwork.png",
         stats: {
           hp: 7001,
           atk: 2231,
@@ -340,7 +340,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Flame",
         role: "Buffer",
-        image: "/exedra-4s-png/rika_ayano_4S.png",
+        image: "https://exedra.wiki/w/images/a/a9/Brilliant_Beam_Kioku_Artwork.png",
         stats: {
           hp: 7028,
           atk: 2231,
@@ -377,7 +377,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Light",
         role: "Buffer",
-        image: "/exedra-4s-png/riko_chiaki_4S.png",
+        image: "https://exedra.wiki/w/images/a/af/Yummy_Hunter_Kioku_Artwork.png",
         stats: {
           hp: 6991,
           atk: 2271,
@@ -414,7 +414,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Dark",
         role: "Debuffer",
-        image: "/exedra-4s-png/hanna_sarasa_4S.png",
+        image: "https://exedra.wiki/w/images/c/c6/Nightmare_Stinger_Kioku_Artwork.png",
         stats: {
           hp: 6947,
           atk: 2293,
@@ -451,7 +451,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Flame",
         role: "Debuffer",
-        image: "/exedra-4s-png/himika_mao_4S.png",
+        image: "https://exedra.wiki/w/images/c/ca/Meteor_Punch_Kioku_Artwork.png",
         stats: {
           hp: 7023,
           atk: 2226,
@@ -488,7 +488,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Flame",
         role: "Debuffer",
-        image: "/exedra-4s-png/ayame_mikuri_4S.png",
+        image: "https://exedra.wiki/w/images/9/93/Unknown_Flying_Fire_Kioku_Artwork.png",
         stats: {
           hp: 6915,
           atk: 2312,
@@ -525,7 +525,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Light",
         role: "Defender",
-        image: "/exedra-4s-png/kokoro_awane_4S.png",
+        image: "https://exedra.wiki/w/images/0/0e/Surging_Laser_Kioku_Artwork.png",
         stats: {
           hp: 6991,
           atk: 1812,
@@ -562,7 +562,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Flame",
         role: "Healer",
-        image: "/exedra-4s-png/reira_ibuki_4S.png",
+        image: "https://exedra.wiki/w/images/0/09/Circle_Of_Fire_Kioku_Artwork.png",
         stats: {
           hp: 8430,
           atk: 1779,
@@ -599,7 +599,7 @@ export const CharacterData_four = [
         rarity: "4",
         type: "Forest",
         role: "Healer",
-        image: "/exedra-4s-png/yuma_chitose_4S.png",
+        image: "https://exedra.wiki/w/images/a/aa/Lynx_Impact_Kioku_Artwork.png",
         stats: {
           hp: 8448,
           atk: 1775,

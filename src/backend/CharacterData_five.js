@@ -36,43 +36,43 @@ export const CharacterData_five = [
   //       5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
   //   }
   // },
-  // {
-  //   name: "",
-  //   rarity: "5",
-  //   type: "",
-  //   role: "",
-  //   image: "",
-  //   stats: {
-  //       hp: ,
-  //       atk: ,
-  //       def: ,
-  //       spd:
-  //   },
-  //   spatk: {
-  //       name: "",
-  //       desc: ""
-  //     },
-  //   basicatk: "",
-  //   skill: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   ability: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   suppability: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   asc: {
-  //       1: "Increases HP/ATK/DEF by 2%. ",
-  //       2: "Increases HP/ATK/DEF by 2%. ",
-  //       3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
-  //       4: "Increases HP/ATK/DEF by 2%. ",
-  //       5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
-  //   }
-  // },
+  {
+    name: "Mel Anna",
+    rarity: "5",
+    type: "Forest",
+    role: "Breaker",
+    image: "https://exedra.wiki/w/images/f/fd/Tenebrous_Arcana_Kioku_Artwork.png",
+    stats: {
+        hp: 9469,
+        atk: 2721,
+        def: 3237,
+        spd: 103
+    },
+    spatk: {
+        name: "Tenebrous Arcana",
+        desc: "Deals 360% forest DMG to a single enemy, and increases target's forest DMG taken by 10% (2 turns). Grants 3 Magic to self."
+      },
+    basicatk: "Under 3 Magic: Deals 100% forest DMG to a single enemy. Consumes 3 of own Magic. If at 3 Magic: Deals 100% forest DMG to a single enemy. Consumes 3 of own Magic. Increases own break gauge depletion (2 turns), and grants 10 MP to self.",
+    skill: {
+        name: "Lucky Day Leads the Way",
+        desc: "Grants 1 Magic to self, and also increases SPD by 30% (1 turn). Grants extra action to self."
+    },
+    ability: {
+        name: "Blast Technique",
+        desc: "0 Magic at battle start. Max 3 Magic. If at 1 Magic or higher: Increases basic attack DMG dealt by 100% (Effect scales with Magic; max 300%). Increases basic attack break gauge depletion (Effect scales with Magic). Increases basic attack break bonus by 40% (Effect scales with Magic; max 120%)."
+    },
+    suppability: {
+        name: "Haste Technique",
+        desc: "Equipped to Breaker: Increases basic attack break gauge depletion. On battle skill use, increases own SPD by 25% (2 turns)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases break gauge depletion, and on enemy break, increases SPD by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases HP/ATK/DEF by 2%. At battle start, grants 2 Magic. On enemy break, grants 1 SP. On battle skill use, increases SPD by 5% (Stacks 3 times / 1 turn).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On enemy break, advances all allies' action order by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
   {
     name: "Eternal Sakura",
     rarity: "5",
