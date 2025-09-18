@@ -1,4 +1,633 @@
 export const CharacterData_five = [
+  // {
+  //   name: "",
+  //   rarity: "5",
+  //   type: "",
+  //   role: "",
+  //   image: "",
+  //   stats: {
+  //       hp: ,
+  //       atk: ,
+  //       def: ,
+  //       spd:
+  //   },
+  //   spatk: {
+  //       name: "",
+  //       desc: ""
+  //     },
+  //   basicatk: "",
+  //   skill: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   ability: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   suppability: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   asc: {
+  //       1: "Increases HP/ATK/DEF by 2%. ",
+  //       2: "Increases HP/ATK/DEF by 2%. ",
+  //       3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+  //       4: "Increases HP/ATK/DEF by 2%. ",
+  //       5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+  //   }
+  // },
+  // {
+  //   name: "",
+  //   rarity: "5",
+  //   type: "",
+  //   role: "",
+  //   image: "",
+  //   stats: {
+  //       hp: ,
+  //       atk: ,
+  //       def: ,
+  //       spd:
+  //   },
+  //   spatk: {
+  //       name: "",
+  //       desc: ""
+  //     },
+  //   basicatk: "",
+  //   skill: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   ability: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   suppability: {
+  //       name: "",
+  //       desc: ""
+  //   },
+  //   asc: {
+  //       1: "Increases HP/ATK/DEF by 2%. ",
+  //       2: "Increases HP/ATK/DEF by 2%. ",
+  //       3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+  //       4: "Increases HP/ATK/DEF by 2%. ",
+  //       5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+  //   }
+  // },
+  {
+    name: "Eternal Sakura",
+    rarity: "5",
+    type: "Aqua",
+    role: "Attacker",
+    image: "https://exedra.wiki/w/images/e/ee/A_Tale_of_Cherry_Blossoms_Kioku_Artwork.png",
+    stats: {
+        hp: 8038,
+        atk: 3667,
+        def: 2766,
+        spd: 90
+    },
+    spatk: {
+        name: "A Tale of Cherry Blossoms",
+        desc: "Deals 320% aqua DMG to all enemies, and increases critical rate by 20% only during own special attack (Effect is removed after special attack). Also increases own follow-up attack DMG dealt by 60% (2 turns). Also triggers a follow-up attack (Does not consume Magic)."
+      },
+    basicatk: "	Deals 100% aqua DMG to a single enemy. Also grants 1 Magic to self.",
+    skill: {
+        name: "Purging Petalfall",
+        desc: "Deals 135% aqua DMG to all enemies. Increases own DMG dealt when targeting elemental weakness by 40% (2 turns) and critical rate by 20% (2 turns), and grants 2 Magic."
+    },
+    ability: {
+        name: "Edge Chase",
+        desc: "0 Magic at battle start. Max 6 Magic. On follow-up attack / counterattack / assist / critical DMG dealt by allies other than self: Grants 1 Magic (Triggers once per action; max Magic +1). At 6 Magic, triggers a follow-up attack. Follow-Up Attack: Deals 60% aqua DMG to all enemies. Also increases own critical rate by 10% (Stacks 3 times) and critical DMG by 10% (Stacks 3 times), and grants 5 MP. Consumes 6 Magic."
+    },
+    suppability: {
+        name: "Edge Strike",
+        desc: "Equipped to Attacker: Increases critical rate by 15%. On battle skill use, increases critical DMG by 5% (Stacks 5 times)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases follow-up attack DMG dealt by 30% and special attack critical DMG by 30%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Ui Tamake",
+    rarity: "5",
+    type: "Dark",
+    role: "Buffer",
+    image: "https://exedra.wiki/w/images/0/0d/Luce_della_Speranza_Kioku_Artwork.png",
+    stats: {
+        hp: 8988,
+        atk: 3014,
+        def: 3103,
+        spd: 119
+    },
+    spatk: {
+        name: "Luce della Speranza",
+        desc: "Deals 320% dark DMG to all enemies, and applies Swallow's Providence to self (1 turn). Swallow's Providence: Decreases own SPD by 50%. For all allies other than self, increases SPD by 30% and ATK by 40%. On attack by allies other than self, deals 40% additional DMG. (Additional DMG is based on the applying unit's ATK. / Additional DMG element is based on the attacker's own element.)"
+      },
+    basicatk: "Deals 100% dark DMG to a single enemy.",
+    skill: {
+        name: "Gemme Piccine",
+        desc: "Increases all allies' DMG dealt by 40% (2 turns), and also increases dark DMG dealt by 10% (2 turns)."
+    },
+    ability: {
+        name: "Blast Accele",
+        desc: "On DMG dealt by allies other than self, grants 5 MP to self. Increases all allies' follow-up attack and counterattack DMG dealt by 30%."
+    },
+    suppability: {
+        name: "Blast Accele",
+        desc: "Equipped to Buffer: Increases all allies' follow-up attack and counterattack DMG dealt by 15%. On DMG dealt by allies other than self, grants 1 MP to self."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of buff effects applied.",
+        2: "Increases HP/ATK/DEF by 2%. On battle skill use, advances all allies' action order by 10%. While Swallow's Providence is applied to self, increases all allies' DMG dealt when targeting elemental weakness by 15%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases HP/ATK/DEF by 2%. Increases buff effects applied by 50% (* excluding MP recovery and action order advance effects), and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Mami Tomoe",
+    rarity: "5",
+    type: "Dark",
+    role: "Attacker",
+    image: "https://exedra.wiki/w/images/d/d6/Tiro_Finale_Liberation_Kioku_Artwork.png",
+    stats: {
+        hp: 8216,
+        atk: 3548,
+        def: 2826,
+        spd: 97
+    },
+    spatk: {
+        name: "Tiro Finale Liberation",
+        desc: "Deals 260% dark DMG to all enemies, and deals additional DMG 10 times (Each time a random enemy is targeted, dealing 26% dark DMG)."
+      },
+    basicatk: "Deals 100% dark DMG to a single enemy.",
+    skill: {
+        name: "Luce di Salvezza",
+        desc: "Deals 150% dark DMG to all enemies, and deals additional DMG 3 times (Each time a random enemy is targeted, dealing 15% dark DMG). Increases own DMG dealt when targeting elemental weakness by 20% (2 turns)."
+    },
+    ability: {
+        name: "Assault Blast",
+        desc: "Increases special attack DMG dealt by 20%. When at least 1 enemy is present, increases ATK by 5%, plus 5% for each additional enemy (max 25%). On enemy break: Increases DMG dealt when targeting elemental weakness by 30% (2 turns). Increases SPD by 35% (2 turns). Increases MP recovery rate by 10% (2 turns)."
+    },
+    suppability: {
+        name: "Assault Blast",
+        desc: "Equipped to Dark: When at least 1 enemy is present, increases ATK by 3%, plus 3% for each additional enemy (max 15%). On battle skill use, increases DMG dealt when targeting elemental weakness by 25% (2 turns)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. When at least 1 enemy is present, increases DMG dealt by 10%, plus 10% for each additional enemy (max 50%). On enemy break, advances action order by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Sayaka Miki",
+    rarity: "5",
+    type: "Aqua",
+    role: "Debuffer",
+    image: "https://exedra.wiki/w/images/9/98/Melodia_Appassionata_Kioku_Artwork.png",
+    stats: {
+        hp: 9027,
+        atk: 3380,
+        def: 2905,
+        spd: 106
+    },
+    spatk: {
+        name: "Melodia Appassionata",
+        desc: "Deals 60% aqua DMG 5 times to all enemies. Decreases targets' DEF by 30% (2 turns). Also has a 100% chance to apply vortex (Deals 160% aqua DMG after the target is attacked 5 times)."
+      },
+    basicatk: "Deals 50% aqua DMG 2 times to a single enemy.",
+    skill: {
+        name: "Saltare Leggermente",
+        desc: "Deals 50% aqua DMG 3 times to all enemies, with a 100% chance to apply vortex (Deals 100% aqua DMG after the target is attacked 8 times). Increases targets' incoming break gauge depletion by 20% (2 turns)."
+    },
+    ability: {
+        name: "Assault Blast",
+        desc: "When a vortexed enemy is present, increases DMG dealt by 30%. Increases ATK by 2% based on the number of own basic/battle skill/special attacks to enemy (Stacks 15 times; only counts single-target attacks)."
+    },
+    suppability: {
+        name: "Blast Haste",
+        desc: "Equipped to Debuffer: Increases ongoing DMG dealt by 15%. When 3 or more debuffs are applied to enemies, increases SPD by 15%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of ailment and debuff effects applied (* excluding ailments that block actions).",
+        2: "Increases HP/ATK/DEF by 2%. Increases stacks for ATK UP effect based on the number of own basic/battle skill/special attacks to enemy by 1. On enemy break, increases ATK by 10% (2 turns), and increases SPD by 10% (2 turns).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases ailment and debuff effects applied by 30% (* excluding action order delay effects).",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Madoka Kaname",
+    rarity: "5",
+    type: "Aqua",
+    role: "Healer",
+    image: "https://exedra.wiki/w/images/f/f1/Pluvia%E2%98%86Clara_Kioku_Artwork.png",
+    stats: {
+        hp: 10515,
+        atk: 2652,
+        def: 3152,
+        spd: 107
+    },
+    spatk: {
+        name: "Pluvia☆Clara",
+        desc: "Deals 280% aqua DMG to all enemies. Restores all allies' HP by 30% of user's HP +1200. Also, increases ATK for all allies by 15% (Effect only applies when HP 80% or higher / 2 turns)."
+      },
+    basicatk: "Deals 100% aqua DMG to a single enemy.",
+    skill: {
+        name: "Iris Lucida",
+        desc: "Restores all allies' HP by 12% of user's HP +400, and applies shield (20% / 3 times). If own HP 80% or higher: Increases all allies' DMG dealt when targeting elemental weakness by 10% (2 turns). If own HP 90% or higher: Also grants all allies 3 MP."
+    },
+    ability: {
+        name: "Chase Shield",
+        desc: "At own first turn start, activates assist (1 time per battle). 0 Magic at battle start. Max 5 Magic. When self or ally has active shield after taking enemy attack, grants 1 Magic (Triggers once per action; max Magic +1). When Magic reaches 5, activates assist. Assist: Restores all allies' HP by 10% of user's HP, and advances own action order by 15%. Applies shield to all allies (20% / 3 times). Consumes 5 Magic."
+    },
+    suppability: {
+        name: "Haste Toughness",
+        desc: "Equipped to Healer: Increases max HP by 10% and SPD by 12%. On battle skill use, increases DMG dealt when targeting elemental weakness by 15% (2 turns)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases MP recovery rate by 30%.",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, increases own action order by 30%. On assist, increases HP recovery amount by 20% (2 turns), and increases SPD by 20% (2 turns).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases max HP by 10%, and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Mami Tomoe",
+    rarity: "5",
+    type: "Forest",
+    role: "Attacker",
+    image: "https://exedra.wiki/w/images/b/b8/Fiore_Finale_Kioku_Artwork.png",
+    stats: {
+        hp: 8763,
+        atk: 3618,
+        def: 2771,
+        spd: 96
+    },
+    spatk: {
+        name: "Fiore Finale",
+        desc: "Deals 125% forest DMG to a single enemy 4 times. If at 1 Magic or higher: Also deals 20% forest DMG to target (Attack count scales with Magic; max 5 times)."
+      },
+    basicatk: "Deals 100% forest DMG to a single enemy.",
+    skill: {
+        name: "Giocare Con l'Acqua",
+        desc: "Deals 90% forest DMG to a single enemy 3 times. Applies shield to self (20% / 2 times), and grants 1 Magic. If at 3 Magic or higher: Deals 30% forest DMG to target. Applies Midsummer Fireworks to self (2 turns). Midsummer Fireworks: If HP 80% or higher, increases ATK by 5% (Effect increases the higher the remaining HP; max 30%). If at 1 Magic or higher, on basic attack, battle skill, or special attack, grants 1 MP (Effect scales with Magic; max MP +5)."
+    },
+    ability: {
+        name: "Blast Haste",
+        desc: "0 Magic at battle start. Max 5 Magic. At turn start, grants 1 Magic. When no shield active after taking enemy attack, decreases Magic by 1. If at 1 Magic or higher: Increases SPD by 30%. If at 3 Magic or higher: Also increases DMG dealt by 30%. If at 5 Magic or higher: Also increases special attack DMG dealt by 40%."
+    },
+    suppability: {
+        name: "Shield Enchantment",
+        desc: "Equipped to Attacker: Increases DMG dealt when targeting elemental weakness by 25%, and on battle skill use, applies shield to self (10% / 1 time)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, grants 3 Magic, and applies shield (20% / 2 times). While shield active, increases MP recovery rate by 15%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Alina Gray",
+    rarity: "5",
+    type: "Void",
+    role: "Breaker",
+    image: "https://exedra.wiki/w/images/d/de/Nine_Phases_Kioku_Artwork.png",
+    stats: {
+        hp: 8041,
+        atk: 2525,
+        def: 2671,
+        spd: 111
+    },
+    spatk: {
+        name: "Nine Phases",
+        desc: "Deals 280% void DMG to all enemies. Grants 3 Magic. When at least 2 enemies are present: Increases break gauge depletion (For each enemy above 2, increases break gauge depletion further)."
+      },
+    basicatk: "Deals 100% void DMG to a single enemy. Grants 1 Magic.",
+    skill: {
+        name: "Cubist Abyss Cubisme of Gehenna",
+        desc: "Deals 135% void DMG to all enemies. Grants 2 Magic. Triggers a follow-up attack."
+    },
+    ability: {
+        name: "Charge Piercing",
+        desc: "0 Magic at battle start. Max 20 Magic. On own or ally's follow-up attack / counterattack / assist: Grants 1 Magic. If at 1 Magic or higher: Increases break bonus by 59% (Effect scales with Magic, up to an increase of 140% at the max of 20 * Follow-up attacks excluded). Increases break gauge depletion (Effect scales with Magic; 1 per magic to max 20). On maxed enemy break bonus: Grants 1 SP."
+    },
+    suppability: {
+        name: "Haste Technique",
+        desc: "Equipped to Void: Increases SPD by 20%. When at least 2 enemies are present: Increases break gauge depletion (1) (For each enemy above 2, increases break gauge depletion further (1))."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases break gauge depletion (5), and on enemy break, increases SPD by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, grants 5 Magic. On own follow-up attack, grants 5 MP.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On enemy break, advances all allies' action order by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Nemu Hiiragi",
+    rarity: "5",
+    type: "Forest",
+    role: "Debuffer",
+    image: "https://exedra.wiki/w/images/e/e6/My_Creations_Kioku_Artwork.png",
+    stats: {
+        hp: 8091,
+        atk: 2507,
+        def: 2591,
+        spd: 121
+    },
+    spatk: {
+        name: "My Creations",
+        desc: "Deals 320% forest DMG to a single enemy and 230% forest DMG to enemies in proximity. Increases targets' forest DMG taken by 30% (2 turns). Also consumes all remaining turns of ongoing DMG effects on targets and immediately deals their total DMG."
+      },
+    basicatk: "Deals 100% forest DMG to a single enemy.",
+    skill: {
+        name: "Sundown Story",
+        desc: "Deals 180% forest DMG to a single enemy and 135% forest DMG to enemies in proximity. Decreases targets' DEF by 20% (2 turns), and 100% chance to poison (60% / 2 turns) targets."
+    },
+    ability: {
+        name: "Accele Chase",
+        desc: "When a poisoned enemy is present: At turn start, grants 5 MP. On special attack, triggers a follow-up attack. Follow-Up Attack: Deals 90% forest DMG to a single enemy and 70% forest DMG to enemies in proximity. 100% chance to poison (60% / 2 turns) targets. Also increases targets' DMG taken by 10% (2 turns)."
+    },
+    suppability: {
+        name: "Blast Injection",
+        desc: "Equipped to Debuffer: Increases DMG dealt by 10% and ailment hit rate by 30%, and decreases DMG taken from enemies with at least 1 ailment by 5%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of ailment and debuff effects applied (* excluding ailments that block actions).",
+        2: "Increases HP/ATK/DEF by 2%. Increases all allies' DMG dealt to poisoned enemies by 30%. Increases own SPD by 10%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases ailment and debuff effects applied by 30% (* excluding action order delay effects).",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Touka Satomi",
+    rarity: "5",
+    type: "Flame",
+    role: "Breaker",
+    image: "https://exedra.wiki/w/images/3/3d/Neo_Genesis_Kioku_Artwork.png",
+    stats: {
+        hp: 8126,
+        atk: 2444,
+        def: 2645,
+        spd: 118
+    },
+    spatk: {
+        name: "Neo Genesis",
+        desc: "Deals 360% flame DMG to a single enemy.Increases own break gauge depletion (10) (2 turns)."
+      },
+    basicatk: "Deals 100% flame DMG to a single enemy.",
+    skill: {
+        name: "Calculated Impact",
+        desc: "Deals 195% flame DMG to a single enemy. Increases own ATK by 5% (1 turn), and decreases DMG taken by 20% (1 turn)."
+    },
+    ability: {
+        name: "Haste Technique",
+        desc: "On own or ally's follow-up attack / counterattack / assist, increases SPD by 5% (2 turns / Stacks 4 times). When 1 or more buffs are applied to self: Increases break gauge depletion (3) (Effect increases for each additional buff; max 5). When 2 or more buffs are applied to self: On special attack, also triggers a follow-up attack. Follow-Up Attack: Deals 135% flame DMG to a single enemy. Advances own action order by 20%. * Only refers to buffs activated by basic attack / battle skill / special attack / follow-up attack / counterattack / assist."
+    },
+    suppability: {
+        name: "Haste Technique",
+        desc: "Equipped to Breaker: Increases break gauge depletion (2). When 2 or more buffs are applied to self: Increases SPD by 25%. * Only refers to buffs activated by basic attack / battle skill / special attack / follow-up attack / counterattack / assist."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases break gauge depletion (5), and on enemy break, increases SPD by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of buff effects applied by self, and on battle skill use, grants 5 MP.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On enemy break, advances all allies' action order by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Tsukasa Amane",
+    rarity: "5",
+    type: "Light",
+    role: "Debuffer",
+    image: "https://exedra.wiki/w/images/9/93/Cherry_Ballad_Kioku_Artwork.png",
+    stats: {
+        hp: 8446,
+        atk: 2581,
+        def: 2398,
+        spd: 122
+    },
+    spatk: {
+        name: "Cherry Ballad",
+        desc: "Deals 300% light DMG to all enemies. Decreases targets' DEF by 30% (2 turns), and removes 1 buff effect from targets."
+      },
+    basicatk: "Deals 100% light DMG to a single enemy.",
+    skill: {
+        name: "Luminous Refrain",
+        desc: "Deals 135% light DMG to all enemies. Increases targets' DMG taken by 15% (2 turns), light DMG taken by 15% (2 turns), and dark DMG taken by 15% (2 turns)."
+    },
+    ability: {
+        name: "Haste Accele",
+        desc: "When 3 or more debuffs are applied to enemies: At turn start, grants 5 MP. When 5 or more debuffs are applied to enemies: Also increases SPD by 30%."
+    },
+    suppability: {
+        name: "Haste Accele",
+        desc: "Equipped to Debuffer: At turn start, grants 2 MP. When 3 or more debuffs are applied to enemies, increases SPD by 25%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of ailment and debuff effects applied (* excluding ailments that block actions).",
+        2: "Increases HP/ATK/DEF by 2%. Removes 1 extra buff effect from targets on special attack. On battle skill use, advances action order by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases ailment and debuff effects applied by 30% (* excluding action order delay effects).",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Tsukuyo Amane",
+    rarity: "5",
+    type: "Dark",
+    role: "Breaker",
+    image: "https://exedra.wiki/w/images/a/af/Cherry_Blizzard_Kioku_Artwork.png",
+    stats: {
+        hp: 8071,
+        atk: 2500,
+        def: 2689,
+        spd: 108
+    },
+    spatk: {
+        name: "Cherry Blizzard",
+        desc: "Deals 280% dark DMG to all enemies. Consumes 12 Magic. If at 6 Magic or higher: Increases break gauge depletion, and advances own action order by 20%. At 12 Magic: Further increases break gauge depletion, increases break bonus by 60% (2 turns), and advances own action order by 10%."
+      },
+    basicatk: "Deals 100% dark DMG to a single enemy. Grants 1 Magic to self.",
+    skill: {
+        desc: "Deals 150% dark DMG to all enemies. Increases targets' light DMG taken by 5% (2 turns) and dark DMG taken by 5% (2 turns). Increases own SPD by 30% (1 turn) and grants 2 Magic.",
+        name: "Twilight Refrain"
+    },
+    ability: {
+        name: "Accele Breakage",
+        desc: "Increases break effect by 180%. 0 Magic at battle start. When 2 or more debuffs are applied to enemies: On DMG dealt to an enemy, grants 1 Magic. When 5 or more debuffs are applied to enemies: On DMG dealt to an enemy, also grants 2 Magic and 5 MP. Max 12 Magic."
+    },
+    suppability: {
+        name: "Haste Accele",
+        desc: "Equipped to Breaker: On DMG dealt to an enemy when 2 or more debuffs are applied to enemies, grants 2 MP. Increases SPD by 20%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases break gauge depletion (5), and on enemy break, increases SPD by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. When 5 or more debuffs are applied to enemies: Increases break gauge depletion (Effect increases for each additional debuff; max 8).",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. On enemy break, advances all allies' action order by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Mabayu Aki",
+    rarity: "5",
+    type: "Light",
+    role: "Buffer",
+    image: "https://exedra.wiki/w/images/1/17/Hollow_Woman_Kioku_Artwork.png",
+    stats: {
+        hp: 8181,
+        atk: 2440,
+        def: 2628,
+        spd: 119
+    },
+    spatk: {
+        name: "Hollow Woman",
+        desc: "Deals 400% light DMG to a single enemy. Increases all allies' DMG dealt by 25% (2 turns) and DMG dealt when targeting elemental weakness by 20% (2 turns)."
+      },
+    basicatk: "Deals 100% light DMG to a single enemy.",
+    skill: {
+        name: "Cut & Splice",
+        desc: "Grants Cutaway to a single ally and increases ATK by 50% (2 turns). Cutaway: Increases action order by 100% and removes 2 debuffs at turn end for the Kioku with Cutaway (Cutaway effect not granted to user). On effect activation, Cutaway is removed."
+    },
+    ability: {
+        name: "Quickness Enchantment",
+        desc: "At battle start, advances action order by 30%. On basic attack, advances action order by 20%. Increases all allies' DMG dealt when targeting elemental weakness by 20%."
+    },
+    suppability: {
+        name: "Haste Quickness",
+        desc: "Equipped to Buffer: On basic attack, advances action order by 10%. Increases SPD by 20%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of buff effects applied.",
+        2: "Increases HP/ATK/DEF by 2%. Increases DMG dealt when targeting elemental weakness by 30% for all allies with Cutaway. On battle skill use, advances all allies' action order by 10%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases buff effects applied by 50% (* excluding MP recovery and action order advance effects), and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Iroha Tamaki",
+    rarity: "5",
+    type: "Dark",
+    role: "Healer",
+    image: "https://exedra.wiki/w/images/4/4e/Doppel_of_Silence_Kioku_Artwork.png",
+    stats: {
+        hp: 8356,
+        atk: 2585,
+        def: 2426,
+        spd: 102
+    },
+    spatk: {
+        name: "Doppel of Silence",
+        desc: "Deals 360% dark DMG to a single enemy. Increases all allies' ATK by 15% (2 turns). Restores all allies' HP by 60% of user's ATK +1500."
+      },
+    basicatk: "Deals 100% dark DMG to a single enemy.",
+    skill: {
+        name: "Rapida Guarigione",
+        desc: "Restores all allies' HP by 25% of user's ATK +450, and applies regeneration (8% of max HP / 2 turns)."
+    },
+    ability: {
+        name: "Quickness Edge",
+        desc: "Increases ATK by 10% and critical rate by 10% for all allies with regeneration. At battle start, advances action order by 40%."
+    },
+    suppability: {
+        name: "Quickness Benefit",
+        desc: "Equipped to Healer: Increases HP recovery amount by 12%. At battle start, advances action order by 15%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Increases MP recovery rate by 30%.",
+        2: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of regeneration effects, and increases all allies' HP recovery amount by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases max HP by 10%, and on special attack, grants 1 SP.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Madoka Kaname",
+    rarity: "5",
+    type: "Light",
+    role: "Attacker",
+    image: "https://exedra.wiki/w/images/f/fa/Nothing_to_Despair%2C_Ever_Kioku_Artwork.png",
+    stats: {
+        hp: 6897,
+        atk: 3233,
+        def: 2267,
+        spd: 98
+    },
+    spatk: {
+        name: "Nothing to Despair, Ever",
+        desc: "On special attack, increases own critical DMG by 40%. Deals 500% light DMG to a single enemy. When fewer than 5 enemies are present, deals 20% light DMG to all enemies (count increases with fewer enemies; max 4 times)."
+      },
+    basicatk: "Deals 100% light DMG to a single enemy.",
+    skill: {
+        name: "Light Arrow",
+        desc: "Under 5 Magic: Deals 270% light DMG to a single enemy. Increases all allies' ATK by 15% (2 turns). Grants 1 Magic. At 5 Magic: Deals 290% light DMG to a single enemy, and 200% light DMG to enemies in proximity. Increases all allies' ATK by 15% (2 turns). Increases own DMG dealt by 30% (2 turns), and grants 5 MP. Consumes 5 Magic. This battle skill costs 0 SP."
+    },
+    ability: {
+        name: "Assault Healing",
+        desc: "0 Magic at battle start. On DMG dealt to an enemy or on receiving HP recovery effect, grants 1 Magic. Max 5 Magic. On use of basic attack or battle skill, restores all allies' HP by 6% of user's ATK. On receiving HP recovery effect, increases ATK by 5% (Stacks 5 times) and critical rate by 5% (Stacks 5 times). On own or ally's critical hit, advances action order by 5% (excluding critical hits from follow-up attacks or counterattacks)."
+    },
+    suppability: {
+        name: "Assault Healing",
+        desc: "Equipped to Attacker: On battle skill use, restores own HP by 2% of user's ATK. On enemy break, increases SPD by 20% (2 turns) and ATK by 20% (2 turns)."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, grants 5 Magic. Increases MP recovery rate by 10% and battle skill DMG dealt by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases HP/ATK/DEF by 2%. On maxed enemy break bonus, gain an additional turn.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
+  {
+    name: "Homura Akemi",
+    rarity: "5",
+    type: "Void",
+    role: "Buffer",
+    image: "https://exedra.wiki/w/images/7/7a/Time_Stop_Strike_Kioku_Artwork.png",
+    stats: {
+        hp: 7921,
+        atk: 2572,
+        def: 2585,
+        spd: 116
+    },
+    spatk: {
+        name: "Time Stop Strike",
+        desc: "Deals 400% void DMG to a single enemy. Increases all allies' special attack DMG dealt by 50% (2 turns)."
+      },
+    basicatk: "Deals 100% void DMG to a single enemy.",
+    skill: {
+        name: "DIY Bomb Toss",
+        desc: "Deals 225% void DMG to a single enemy. Advances all allies' action order by 20%. Grants 1 Magic to self."
+    },
+    ability: {
+        name: "Assault Charge",
+        desc: "At battle start, grants 1 SP. Increases all allies' SPD by 30% and ATK by 5%. On DMG dealt to an enemy by own or allies' basic attack, battle skill, or special attack, grants 1 Magic. Max 7 Magic. At 7 Magic, consumes 7 Magic and grants 1 SP."
+    },
+    suppability: {
+        name: "Haste Quickness",
+        desc: "Equipped to Buffer: Increases SPD by 20%. On battle skill use, advances all allies' action order by 5%."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of buff effects applied.",
+        2: "Increases HP/ATK/DEF by 2%. At battle start, grants 4 Magic. Increases SPD by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases HP/ATK/DEF by 2%. Increases buff effects applied by 50% (* excluding MP recovery and action order advance effects), and on special attack, grants 1 SP.K/DEF by 2%. On taking at least 1 DMG from an enemy attack, grants 5 MP. Increases all allies' DEF by 20%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
   {
     name: "Sayaka Miki",
     rarity: "5",
