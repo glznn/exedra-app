@@ -670,7 +670,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Flame",
     role: "Attacker",
-    image: "/exedra-5s-png/momoko_tagame_5S.png",
+    image: "https://exedra.wiki/w/images/1/15/The_Universe%27s_Edge_Kioku_Artwork.png",
     stats: {
         hp: 6966,
         atk: 3146,
@@ -707,7 +707,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Breaker",
-    image: "/exedra-5s-png/rena_minami_5S.png",
+    image: "https://exedra.wiki/w/images/5/51/Infinite_Poseidon_Kioku_Artwork.png",
     stats: {
         hp: 8051,
         atk: 2435,
@@ -744,7 +744,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Healer",
-    image: "/exedra-5s-png/kaede_akino_5S.png",
+    image: "https://exedra.wiki/w/images/6/6d/Judgement_Earth_Kioku_Artwork.png",
     stats: {
         hp: 9551,
         atk: 1986,
