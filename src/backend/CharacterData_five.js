@@ -41,7 +41,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Breaker",
-    image: "https://exedra.wiki/w/images/f/fd/Tenebrous_Arcana_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Tenebrous-Arcana.webp",
     stats: {
         hp: 9469,
         atk: 2721,
@@ -78,7 +78,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Attacker",
-    image: "https://exedra.wiki/w/images/e/ee/A_Tale_of_Cherry_Blossoms_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/A-Tale-of-Cherry-Blossoms.webp",
     stats: {
         hp: 8038,
         atk: 3667,
@@ -115,7 +115,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Dark",
     role: "Buffer",
-    image: "https://exedra.wiki/w/images/0/0d/Luce_della_Speranza_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Luce-della-Speranza.webp",
     stats: {
         hp: 8988,
         atk: 3014,
@@ -152,7 +152,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Dark",
     role: "Attacker",
-    image: "https://exedra.wiki/w/images/d/d6/Tiro_Finale_Liberation_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/tiro-finale-liberation.webp",
     stats: {
         hp: 8216,
         atk: 3548,
@@ -189,7 +189,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Debuffer",
-    image: "https://exedra.wiki/w/images/9/98/Melodia_Appassionata_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/melodia-appassionata.webp",
     stats: {
         hp: 9027,
         atk: 3380,
@@ -226,7 +226,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Healer",
-    image: "https://exedra.wiki/w/images/f/f1/Pluvia%E2%98%86Clara_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/pluvia-clara.webp",
     stats: {
         hp: 10515,
         atk: 2652,
@@ -263,7 +263,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Attacker",
-    image: "https://exedra.wiki/w/images/b/b8/Fiore_Finale_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/fiore-finale.webp",
     stats: {
         hp: 8763,
         atk: 3618,
@@ -300,7 +300,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Void",
     role: "Breaker",
-    image: "https://exedra.wiki/w/images/d/de/Nine_Phases_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Nine-Phases.webp",
     stats: {
         hp: 8041,
         atk: 2525,
@@ -337,7 +337,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Debuffer",
-    image: "https://exedra.wiki/w/images/e/e6/My_Creations_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/My-Creations.webp",
     stats: {
         hp: 8091,
         atk: 2507,
@@ -374,7 +374,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Flame",
     role: "Breaker",
-    image: "https://exedra.wiki/w/images/3/3d/Neo_Genesis_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Neo-Genesis.webp",
     stats: {
         hp: 8126,
         atk: 2444,
@@ -411,7 +411,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Light",
     role: "Debuffer",
-    image: "https://exedra.wiki/w/images/9/93/Cherry_Ballad_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Cherry-Ballad.webp",
     stats: {
         hp: 8446,
         atk: 2581,
@@ -448,7 +448,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Dark",
     role: "Breaker",
-    image: "https://exedra.wiki/w/images/a/af/Cherry_Blizzard_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Cherry-Blizzard.webp",
     stats: {
         hp: 8071,
         atk: 2500,
@@ -485,7 +485,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Light",
     role: "Buffer",
-    image: "https://exedra.wiki/w/images/1/17/Hollow_Woman_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/hollow-woman.webp",
     stats: {
         hp: 8181,
         atk: 2440,
@@ -522,7 +522,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Dark",
     role: "Healer",
-    image: "https://exedra.wiki/w/images/4/4e/Doppel_of_Silence_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Doppel-of-Silence.webp",
     stats: {
         hp: 8356,
         atk: 2585,
@@ -559,7 +559,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Light",
     role: "Attacker",
-    image: "https://exedra.wiki/w/images/f/fa/Nothing_to_Despair%2C_Ever_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/nothing-to-despair-ever.webp",
     stats: {
         hp: 6897,
         atk: 3233,
@@ -596,7 +596,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Void",
     role: "Buffer",
-    image: "https://exedra.wiki/w/images/7/7a/Time_Stop_Strike_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/time-stop-strike.webp",
     stats: {
         hp: 7921,
         atk: 2572,
@@ -633,7 +633,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Defender",
-    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A5.jpg",
+    image: "https://exedra-app-4f335.web.app/images/Baldamente-Fortissimo.webp",
     stats: {
         hp: 8006,
         atk: 2024,
@@ -670,7 +670,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Flame",
     role: "Attacker",
-    image: "https://exedra.wiki/w/images/1/15/The_Universe%27s_Edge_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/The-Universe's-Edge.webp",
     stats: {
         hp: 6966,
         atk: 3146,
@@ -707,7 +707,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Aqua",
     role: "Breaker",
-    image: "https://exedra.wiki/w/images/5/51/Infinite_Poseidon_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Infinite-Poseidon.webp",
     stats: {
         hp: 8051,
         atk: 2435,
@@ -744,7 +744,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Healer",
-    image: "https://exedra.wiki/w/images/6/6d/Judgement_Earth_Kioku_Artwork.png",
+    image: "https://exedra-app-4f335.web.app/images/Judgement-Earth.webp",
     stats: {
         hp: 9551,
         atk: 1986,
@@ -781,7 +781,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Flame",
     role: "Attacker",
-    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A4.jpg",
+    image: "https://exedra-app-4f335.web.app/images/kugatachi.webp",
     stats: {
         hp: 6959,
         atk: 3149,
@@ -789,7 +789,7 @@ export const CharacterData_five = [
         spd: 86
     },
     spatk: {
-        name: "Kugatchi",
+        name: "Kugatachi",
         desc: "Deals 500% flame DMG to a single enemy. If target's break bonus is 350% or higher, increases DMG dealt by 30%."
     },
     basicatk: "Deals 100% flame DMG to a single enemy.",
@@ -818,7 +818,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Forest",
     role: "Buffer",
-    image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_A3.jpg",
+    image: "https://exedra-app-4f335.web.app/images/tiro-finale.webp",
     stats: {
         hp: 7866,
         atk: 2568,
@@ -855,7 +855,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Dark",
         role: "Attacker",
-        image: "https://images.puella-magi.net/6/61/Exedra_Homura_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/concentrated-missile-fire.webp",
         stats: {
             hp: 7072,
             atk: 3119,
@@ -892,7 +892,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Aqua",
         role: "Attacker",
-        image: "https://images.puella-magi.net/a/ae/Exedra_Yachiyo_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Absolute-Rain.webp",
         stats: {
             hp: 6976,
             atk: 3141,
@@ -929,7 +929,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Light",
         role: "Attacker",
-        image: "https://images.puella-magi.net/9/98/Exedra_Oriko_Art.png",
+        image: "https://exedra-app-4f335.web.app/images/Oracle-Ray.webp",
         stats: {
             hp: 6957,
             atk: 3149,
@@ -966,7 +966,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Light",
         role: "Breaker",
-        image: "https://images.puella-magi.net/1/1a/Exedra_Madoka_Art_2.jpg",  
+        image: "https://exedra-app-4f335.web.app/images/pluvia-magica.webp",  
         stats: {
             hp: 8126,
             atk: 2407,
@@ -1003,7 +1003,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Light",
         role: "Breaker",
-        image: "https://images.puella-magi.net/5/56/Magia_Exedra_Steam_11.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Strada-Futuro.webp",
         stats: {
             hp: 8036,
             atk: 2446,
@@ -1040,7 +1040,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Flame",
         role: "Buffer",
-        image: "https://images.puella-magi.net/3/33/Exedra_Tsuruno_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Flame-Waltz.webp",
         stats: {
             hp: 7871,
             atk: 2511,
@@ -1077,7 +1077,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Void",
         role: "Debuffer",
-        image: "https://images.puella-magi.net/c/c1/Exedra_Ren_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Soul-Salvation.webp",
         stats: {
           hp: 7756,
           atk: 2611,
@@ -1118,7 +1118,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Dark",
         role: "Debuffer",
-        image: "https://images.puella-magi.net/4/41/Exedra_Felicia_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Ultra-Great-Big-Hammer.webp",
         stats: {
           hp: 8196,
           atk: 2731,
@@ -1155,7 +1155,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Dark",
         role: "Defender",
-        image: "https://madoka-exedra.com/assets_teaser2/img/character/img_chara_C2.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Vampire-Fang.webp",
         stats: {
           hp: 7772,
           atk: 2078,
@@ -1192,7 +1192,7 @@ export const CharacterData_five = [
         rarity: "5",
         type: "Forest",
         role: "Defender",
-        image: "https://images.puella-magi.net/e/e8/Exedra_Sana_Art.jpg",
+        image: "https://exedra-app-4f335.web.app/images/Folter-Gefangnis.webp",
         stats: {
           hp: 7817,
           atk: 2036,
@@ -1229,7 +1229,7 @@ export const CharacterData_five = [
         "rarity": "5",
         "type": "Light",
         "role": "Breaker",
-        "image": "https://images.puella-magi.net/0/0c/Magia_Exedra_Steam_8.jpg",
+        "image": "https://exedra-app-4f335.web.app/images/lux-magica.webp",
         "stats": {
           "hp": 7788,
           "atk": 2358,

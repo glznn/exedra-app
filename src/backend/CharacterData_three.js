@@ -4,7 +4,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Aqua",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/4/46/Asuka%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Asuka's-Kioku.webp",
         stats: {
           hp: 6275,
           atk: 2745,
@@ -41,7 +41,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Light",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/3/3d/Masara%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Masara's-Kioku.webp",
         stats: {
           hp: 6297,
           atk: 2744,
@@ -78,7 +78,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Flame",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/6/69/Rika%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Rika's-Kioku.webp",
         stats: {
           hp: 6236,
           atk: 2750,
@@ -115,7 +115,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Dark",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/5/52/Ashley%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Ashley's-Kioku.webp",
         stats: {
           hp: 6253,
           atk: 2733,
@@ -152,7 +152,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Dark",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/7/77/Kush%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Kush's-Kioku.webp",
         stats: {
           hp: 6227,
           atk: 2744,
@@ -189,7 +189,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Forest",
         role: "Attacker",
-        image: "https://exedra.wiki/w/images/9/94/Kako%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Kako's-Kioku.webp",
         stats: {
           hp: 6236,
           atk: 2750,
@@ -227,7 +227,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Flame",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/c/c6/Karin%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Karin's-Kioku.webp",
         stats: {
           hp: 7178,
           atk: 2148,
@@ -264,7 +264,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Flame",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/9/96/Reira%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Reira's-Kioku.webp",
         stats: {
           hp: 7219,
           atk: 2125,
@@ -301,7 +301,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Aqua",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/7/7f/Seika%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Seika's-Kioku.webp",
         stats: {
           hp: 7228,
           atk: 2120,
@@ -338,7 +338,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Dark",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/4/47/Hanna%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Hanna's-Kioku.webp",
         stats: {
           hp: 7178,
           atk: 2148,
@@ -375,7 +375,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Light",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/e/e8/Riko%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Riko's-Kioku.webp",
         stats: {
           hp: 7188,
           atk: 2140,
@@ -412,7 +412,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Aqua",
         role: "Breaker",
-        image: "https://exedra.wiki/w/images/8/80/Meiyui%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Meiyui's-Kioku.webp",
         stats: {
           hp: 7161,
           atk: 2146,
@@ -449,7 +449,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Forest",
         role: "Buffer",
-        image: "https://exedra.wiki/w/images/2/2b/Nanaka%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Nanaka's-Kioku.webp",
         stats: {
           hp: 6975,
           atk: 2270,
@@ -486,7 +486,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Flame",
         role: "Buffer",
-        image: "https://exedra.wiki/w/images/b/bc/Himika%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Himika's-Kioku.webp",
         stats: {
           hp: 7001,
           atk: 2232,
@@ -523,7 +523,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Flame",
         role: "Buffer",
-        image: "https://exedra.wiki/w/images/0/00/Ayame%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Ayame's-Kioku.webp",
         stats: {
           hp: 7063,
           atk: 2255,
@@ -560,7 +560,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Aqua",
         role: "Buffer",
-        image: "https://exedra.wiki/w/images/1/17/Natsuki%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Natsuki's-Kioku.webp",
         stats: {
           hp: 6962,
           atk: 2259,
@@ -597,7 +597,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Forest",
         role: "Debuffer",
-        image: "https://exedra.wiki/w/images/3/37/Mito%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Mito's-Kioku.webp",
         stats: {
           hp: 6962,
           atk: 2275,
@@ -634,7 +634,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Light",
         role: "Debuffer",
-        image: "https://exedra.wiki/w/images/6/69/Hazuki%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Hazuki's-Kioku.webp",
         stats: {
           hp: 7063,
           atk: 2227,
@@ -671,7 +671,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Light",
         role: "Defender",
-        image: "https://exedra.wiki/w/images/d/d2/Kokoro%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Kokoro's-Kioku.webp",
         stats: {
           hp: 7028,
           atk: 1784,
@@ -708,7 +708,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Forest",
         role: "Healer",
-        image: "https://exedra.wiki/w/images/d/d9/Yuma%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Yuma's-Kioku.webp",
         stats: {
           hp: 8412,
           atk: 1798,
@@ -745,7 +745,7 @@ export const CharacterData_three = [
         rarity: "3",
         type: "Aqua",
         role: "Healer",
-        image: "https://exedra.wiki/w/images/c/cb/Konoha%27s_Kioku_Kioku_Artwork.png",
+        image: "https://exedra-app-4f335.web.app/images/Konoha's-Kioku.webp",
         stats: {
           hp: 8465,
           atk: 1794,
