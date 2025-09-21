@@ -125,7 +125,7 @@ function CharacterScreen() {
             <img className="char__type" src={"/exedra-icons/elements/" + character.type.toLowerCase() + "-elem.png"} alt="Element Icon"></img>
             <img className="char__role" src={"/exedra-icons/role/" + character.role.toLowerCase() + ".png"} alt="Role Icon"></img>
             <div className="char__imgContainer">
-              <img src={character.image} title={character.name} className="char__image"
+              <img src={character.image} title={character.name} className="char__image" fetchPriority='high'
               onClick={() => {
                 navigate(`/characters/${character.spatk.name}`);
               }}
