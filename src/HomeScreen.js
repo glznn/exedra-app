@@ -6,7 +6,8 @@ function HomeScreen() {
     <div className="Homescreen">
       <div className="home__top">
         <img className="home__banner" 
-        src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg"
+        src="/images/exedra-banner.webp"
+        fetchPriority='high'
         alt="Homescreen Banner">
         </img>
         <div className="home__message">

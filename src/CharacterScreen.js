@@ -61,7 +61,7 @@ function CharacterScreen() {
   return (
     <div className="CharacterScreen">
       <div className="char__top">
-        <img className="char__banner" src="https://madoka-exedra.com/assets_teaser2/img/teaser/ver_black/kv_black_pc.jpg" alt="Homescreen Banner">
+        <img className="char__banner" src="/images/exedra-banner.webp" alt="Homescreen Banner" fetchPriority='high'>
           </img>
 
         <div className="char__bannerMessage">
