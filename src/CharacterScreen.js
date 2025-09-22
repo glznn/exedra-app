@@ -106,7 +106,7 @@ function CharacterScreen() {
               onClick={() => handleRarityFilter(val.rarity)}
               >
                 <div id="rarityIcon">
-                  {val.rarity} {val.icon}
+                  {val.rarity}{val.icon}
                 </div>
               </li>
             )
