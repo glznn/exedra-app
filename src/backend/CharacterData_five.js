@@ -1,41 +1,152 @@
 export const CharacterData_five = [
   // {
-  //   name: "",
-  //   rarity: "5",
-  //   type: "",
-  //   role: "",
-  //   image: "",
-  //   stats: {
-  //       hp: ,
-  //       atk: ,
-  //       def: ,
-  //       spd:
-  //   },
-  //   spatk: {
-  //       name: "",
-  //       desc: ""
+  //     name: "Homura Akemi",
+  //     rarity: "5",
+  //     type: "Void",
+  //     role: "Attacker",
+  //     image: "https://exedra-app-4f335.web.app/images/Tenebrous-Arcana.webp",
+  //     stats: {
+  //         hp: 8810,
+  //         atk: 3528,
+  //         def: 2845,
+  //         spd: 100
   //     },
-  //   basicatk: "",
-  //   skill: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   ability: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   suppability: {
-  //       name: "",
-  //       desc: ""
-  //   },
-  //   asc: {
-  //       1: "Increases HP/ATK/DEF by 2%. ",
-  //       2: "Increases HP/ATK/DEF by 2%. ",
-  //       3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
-  //       4: "Increases HP/ATK/DEF by 2%. ",
-  //       5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
-  //   }
+  //     spatk: {
+  //         name: "",
+  //         desc: "",
+  //     }, 
+  //     basicatk: "",
+  //     skill: {
+  //         name: "",
+  //         desc: "",
+  //     },
+  //     ability: {
+  //         name: "",
+  //         desc: "",
+  //     },
+  //     suppability: {
+  //         name: "",
+  //         desc: ""
+  //     },
+  //     asc: {
+  //         1: "Increases HP/ATK/DEF by 2%. ",
+  //         2: "Increases HP/ATK/DEF by 2%. ",
+  //         3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+  //         4: "Increases HP/ATK/DEF by 2%. ",
+  //         5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+  //     }
   // },
+  {
+      name: "Mifuyu Azusa",
+      rarity: "5",
+      type: "Dark",
+      role: "Breaker",
+      image: "https://exedra-app-4f335.web.app/images/Assault-Paranoia.webp",
+      stats: {
+          hp: 9255,
+          atk: 2962,
+          def: 3167,
+          spd: 112
+      },
+      spatk: {
+          name: "Assault Paranoia",
+          desc: "Deals 360% dark DMG to a single enemy. 100% chance to curse target (30% / 2 turns). Advances own action order by 20%. Consumes 10 Magic.",
+      }, 
+      basicatk: "Deals 100% dark DMG to a single enemy.",
+      skill: {
+          name: "Spinning Slash",
+          desc: "Deals 195% dark DMG to a single enemy, increases chance to land critical hit on target by 15% (2 turns), and 100% chance to curse (20% / 2 turns). Also grants 2 Magic to self.",
+      },
+      ability: {
+          name: "Edge Technique",
+          desc: "0 Magic at battle start. Max 10 Magic. Increases own critical rate to cursed enemies by 35%. On special attack, increases break gauge depletion (Effect scales with Magic; 5 per Magic to max 50), and increases break bonus by 20% (Effect scales with Magic; max 200%). On own or ally's critical hit: Grants 1 Magic to self and 8 MP.",
+      },
+      suppability: {
+          name: "Haste Technique",
+          desc: "Equipped to Breaker: Increases SPD by 20%. On critical hit, increases break gauge depletion (5) (2 turns)."
+      },
+      asc: {
+          1: "Increases HP/ATK/DEF by 2%. ",
+          2: "Increases HP/ATK/DEF by 2%. ",
+          3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+          4: "Increases HP/ATK/DEF by 2%. ",
+          5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+      }
+  },
+  {
+      name: "Mitama Yakumo",
+      rarity: "5",
+      type: "Void",
+      role: "Healer",
+      image: "https://exedra-app-4f335.web.app/images/Structure-Destruction.webp",
+      stats: {
+          hp: 10443,
+          atk: 2449,
+          def: 3184,
+          spd: 107
+      },
+      spatk: {
+          name: "Structure Destruction",
+          desc: "Deals 280% void DMG to all enemies. Restores all allies' HP by 30% of user's HP +1200. Also removes 1 debuff from all allies. If own HP 80% or higher: Also increases all allies' DMG dealt when targeting elemental weakness by 20% (2 turns). ",
+      }, 
+      basicatk: "Deals 100% void DMG to a single enemy.",
+      skill: {
+          name: "Uplifting Good Luck Charm",
+          desc: "Restores all allies' HP by 12% of user's HP +400. Grants 5 MP to all void allies. Decreases all enemies' ATK by 5% (2 turns).",
+      },
+      ability: {
+          name: "Defense Gain",
+          desc: "On own basic attack, advances own action order by 20%. On battle skill use by allies other than self, grants 3 MP to self. When 1 or more debuffs are applied to enemies, decreases all allies' DMG taken from enemies by 10%.",
+      },
+      suppability: {
+          name: "Quickness Benefit",
+          desc: "Equipped to Healer: Increases HP recovery amount by 12%. On basic attack, advances action order by 10%."
+      },
+      asc: {
+          1: "Increases HP/ATK/DEF by 2%. Increases MP recovery rate by 30%.",
+          2: "Increases HP/ATK/DEF by 2%. At battle start, grants 50 MP to self. Removes 1 extra debuff effect from all allies on special attack.",
+          3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+          4: "Increases HP/ATK/DEF by 2%. Increases max HP by 10%, and on special attack, grants 1 SP.",
+          5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+      }
+  },
+  {
+    name: "Homura Akemi",
+    rarity: "5",
+    type: "Void",
+    role: "Attacker",
+    image: "https://exedra-app-4f335.web.app/images/Dark-Art-Dominion.webp",
+    stats: {
+        hp: 8810,
+        atk: 3528,
+        def: 2845,
+        spd: 100
+    },
+    spatk: {
+        name: "Dark Art Dominion",
+        desc: "Deals 420% void DMG to a single enemy and 315% void DMG to enemies in proximity. Removes 1 buff effect from targets. Increases own battle skill DMG dealt by 30% (1 turn). When all enemy sigils total 15 or more: Also grants extra action to self, and grants 1 SP. Decreases all enemies' sigil count by 3."
+      },
+    basicatk: "Deals 100% void DMG to a single enemy.",
+    skill: {
+        name: "Spellbow Barrage",
+        desc: "Deals 225% void DMG to a single enemy and 169% void DMG to enemies in proximity. Applies sigil to targets. Increases own DMG dealt by 20% (2 turns). When all enemy sigils total 9 or more: Also grants 10 MP to self, and advances action order by 10%. Decreases all enemies' sigil count by 2. Sigil: After sigil is applied, sigil count can increase up to 20 per enemy. Basic attacks, battle skills, and special attacks to enemies with sigil increase the sigil count by 1. Sigil effect is not stackable and cannot be removed by debuff removal effects."
+    },
+    ability: {
+        name: "Edge Strike",
+        desc: "At battle start, advances action order by 60%. Decreases own DMG taken by 10%. When an enemy is defeated by self or allies, increases sigil count of all enemies with sigil by 2. On own DMG dealt to an enemy with sigil: Also increases own critical DMG by 5% (Effect increases each time DMG is dealt; max 25%), and increases own critical rate by 5% (Effect increases each time DMG is dealt; max 25%).",  
+    },
+    suppability: {
+        name: "Blast Haste",
+        desc: "Equipped to Attacker: Increases own battle skill DMG dealt by 15% and SPD by 15."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. On enemy break, increases MP by 10%, and increases ATK by 20% (2 turns).",
+        2: "Increases HP/ATK/DEF by 2%. Increases HP/ATK/DEF by 2%. Increases critical rate by 10%. Increases special attack DMG dealt by 30%. When all enemy sigils total 10 or more: Increases attack by 10%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases critical rate by 25%. Applies sigil to all enemies. At battle start, increases all enemies' sigil count by 2. Increases DMG dealt when targeting an enemy's elemental weakness by 30%.",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+  },
   {
     name: "Mel Anna",
     rarity: "5",
