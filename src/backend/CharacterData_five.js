@@ -37,6 +37,43 @@ export const CharacterData_five = [
   //     }
   // },
   {
+    name: "Mami Tomoe",
+    rarity: "5",
+    type: "Dark",
+    role: "Debuffer",
+    image: "/",
+    stats: {
+        hp: 8958,
+        atk: 3400,
+        def: 2925,
+        spd: 111
+    },
+    spatk: {
+        name: "Bebe-O'-Lantern",
+        desc: "Deals 300% dark DMG to a single enemy, with 100% chance to curse (60% / 2 turns) target. Also increases target's DMG taken by 40% (2 turns)."
+        },
+    basicatk: "Deals 100% dark DMG to a single enemy.",
+    skill: {
+        name: "Rondo di Dolcetti",
+        desc: "Deals 225% dark DMG to a single enemy, and decreases DEF by 25% (2 turns). Also, applies Candyholic (2 turns) to target. Candyholic: When cursed, decreases DEF by 15%, and increases DMG taken by 10%."
+    },
+    ability: {
+        name: "Blast Curse",
+        desc: "On own attack to Candyholic enemy, 100% chance to curse (60% / 2 turns). When a Candyholic enemy is present, increases all allies' ongoing DMG dealt by 40%. On own special attack, decreases all enemies' SPD by 3% (2 turns; max 3 stacks)."
+    },
+    suppability: {
+        name: "Blast Haste",
+        desc: "Equipped to Debuffer: Increases own ongoing DMG dealt by 15%. Increases own SPD by 15%. On own basic attack, grants 2 MP."
+    },
+    asc: {
+        1: "Increases HP/ATK/DEF by 2%. Adds 1 turn to the duration of ailment and debuff effects applied (* excluding ailments that block actions).",
+        2: "Increases HP/ATK/DEF by 2%. When a Candyholic enemy is present, increases SPD by 10%. On special attack, advances action order by 20%.",
+        3: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3.",
+        4: "Increases HP/ATK/DEF by 2%. Increases ailment and debuff effects applied by 30% (* excluding action order delay effects).",
+        5: "Increases HP/ATK/DEF by 2%. Increases Special Attack Lvl. Cap by 3."
+    }
+},
+  {
       name: "Mifuyu Azusa",
       rarity: "5",
       type: "Dark",
