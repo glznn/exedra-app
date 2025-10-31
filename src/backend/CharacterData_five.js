@@ -41,7 +41,7 @@ export const CharacterData_five = [
     rarity: "5",
     type: "Dark",
     role: "Debuffer",
-    image: "/",
+    image: "https://exedra-app-4f335.web.app/images/Bebe-O'-Lantern.webp",
     stats: {
         hp: 8958,
         atk: 3400,
